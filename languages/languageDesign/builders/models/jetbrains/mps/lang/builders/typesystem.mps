@@ -106,9 +106,16 @@
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
+      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
@@ -152,28 +159,37 @@
     <property role="TrG5h" value="typeof_NodeBuilderAB" />
     <property role="3GE5qa" value="builderNew" />
     <node concept="3clFbS" id="1WuaKdvEs3b" role="18ibNy">
-      <node concept="1Z5TYs" id="1WuaKdvEsdW" role="3cqZAp">
-        <node concept="mw_s8" id="1WuaKdvEseg" role="1ZfhKB">
-          <node concept="2c44tf" id="1WuaKdvEsec" role="mwGJk">
-            <node concept="3Tqbb2" id="1WuaKdvEsff" role="2c44tc">
-              <node concept="2c44tb" id="1WuaKdvEsgA" role="lGtFl">
+      <node concept="1Z5TYs" id="46OxO0WlY11" role="3cqZAp">
+        <node concept="mw_s8" id="46OxO0WlY12" role="1ZfhKB">
+          <node concept="2c44tf" id="46OxO0WlY13" role="mwGJk">
+            <node concept="3Tqbb2" id="46OxO0WlY14" role="2c44tc">
+              <node concept="2c44tb" id="46OxO0WlY15" role="lGtFl">
                 <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
                 <property role="2qtEX8" value="concept" />
-                <node concept="2OqwBi" id="1WuaKdvEsr4" role="2c44t1">
-                  <node concept="1YBJjd" id="1WuaKdvEshT" role="2Oq$k0">
-                    <ref role="1YBMHb" node="1WuaKdvEs3d" resolve="nodeBuilderAB" />
+                <node concept="2OqwBi" id="46OxO0WmhYg" role="2c44t1">
+                  <node concept="1PxgMI" id="46OxO0WnYbw" role="2Oq$k0">
+                    <property role="1BlNFB" value="true" />
+                    <ref role="1m5ApE" to="mw1z:46OxO0WjBbj" resolve="StructureConceptReference" />
+                    <node concept="2OqwBi" id="46OxO0WlY16" role="1m5AlR">
+                      <node concept="1YBJjd" id="46OxO0WlY17" role="2Oq$k0">
+                        <ref role="1YBMHb" node="1WuaKdvEs3d" resolve="nodeBuilderAB" />
+                      </node>
+                      <node concept="3TrEf2" id="46OxO0WlYjw" role="2OqNvi">
+                        <ref role="3Tt5mk" to="mw1z:46OxO0WjQND" resolve="concept" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="3TrEf2" id="1WuaKdvEsHr" role="2OqNvi">
-                    <ref role="3Tt5mk" to="mw1z:38NtPr_GPbI" resolve="concept" />
+                  <node concept="3TrEf2" id="46OxO0WnYzm" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mw1z:46OxO0WjBbm" resolve="declaration" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="1WuaKdvEsdZ" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1WuaKdvEs3h" role="mwGJk">
-            <node concept="1YBJjd" id="1WuaKdvEs51" role="1Z2MuG">
+        <node concept="mw_s8" id="46OxO0WlY19" role="1ZfhK$">
+          <node concept="1Z2H0r" id="46OxO0WlY1a" role="mwGJk">
+            <node concept="1YBJjd" id="46OxO0WlY1b" role="1Z2MuG">
               <ref role="1YBMHb" node="1WuaKdvEs3d" resolve="nodeBuilderAB" />
             </node>
           </node>

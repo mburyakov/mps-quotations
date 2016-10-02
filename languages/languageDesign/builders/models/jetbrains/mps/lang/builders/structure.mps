@@ -31,7 +31,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -179,12 +181,12 @@
       <property role="IQ2ns" value="3617366140813267693" />
       <ref role="20lvS9" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     </node>
-    <node concept="1TJgyj" id="38NtPr_GPbI" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
+    <node concept="1TJgyj" id="46OxO0WjQND" role="1TKVEi">
+      <property role="IQ2ns" value="4734557818232728809" />
+      <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="concept" />
       <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="3617366140813267694" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" node="46OxO0Wjzs1" resolve="AbstractConceptReference" />
     </node>
     <node concept="PrWs8" id="38NtPr_JOta" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -289,6 +291,9 @@
     <property role="EcuMT" value="3455411064013824191" />
     <property role="3GE5qa" value="builderNew" />
     <property role="TrG5h" value="IBuilderContainer" />
+    <node concept="PrWs8" id="46OxO0Wrq10" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ZO5wSvAczB">
     <property role="EcuMT" value="3455411064015472871" />
@@ -307,6 +312,30 @@
     <property role="EcuMT" value="807670150342639019" />
     <property role="3GE5qa" value="builderNew" />
     <property role="TrG5h" value="CustomExpressionContainer" />
+  </node>
+  <node concept="1TIwiD" id="46OxO0Wjzs1">
+    <property role="EcuMT" value="4734557818232649473" />
+    <property role="TrG5h" value="AbstractConceptReference" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="46OxO0WlTAV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="46OxO0WjBbj">
+    <property role="EcuMT" value="4734557818232664787" />
+    <property role="TrG5h" value="StructureConceptReference" />
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="46OxO0Wjzs1" resolve="AbstractConceptReference" />
+    <node concept="1TJgyj" id="46OxO0WjBbm" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="declaration" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4734557818232664790" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+    </node>
   </node>
 </model>
 

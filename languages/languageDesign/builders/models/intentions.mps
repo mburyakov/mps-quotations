@@ -691,14 +691,20 @@
             <node concept="2pJPED" id="1WuaKdvNLNn" role="2pJPEn">
               <ref role="2pJxaS" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
               <node concept="2pIpSj" id="1WuaKdvNLWf" role="2pJxcM">
-                <ref role="2pIpSl" to="mw1z:38NtPr_GPbI" resolve="concept" />
-                <node concept="36biLy" id="1WuaKdvNLY4" role="2pJxcZ">
-                  <node concept="2OqwBi" id="1WuaKdvNMtJ" role="36biLW">
-                    <node concept="37vLTw" id="1WuaKdvNLYD" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1WuaKdvNKYu" resolve="builder" />
-                    </node>
-                    <node concept="3TrEf2" id="1WuaKdvNMLc" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tp3r:4IP40Bi2KaL" resolve="concept" />
+                <ref role="2pIpSl" to="mw1z:46OxO0WjQND" resolve="concept" />
+                <node concept="2pJPED" id="46OxO0WlYW6" role="2pJxcZ">
+                  <ref role="2pJxaS" to="mw1z:46OxO0WjBbj" resolve="StructureConceptReference" />
+                  <node concept="2pIpSj" id="46OxO0WlYWz" role="2pJxcM">
+                    <ref role="2pIpSl" to="mw1z:46OxO0WjBbm" resolve="declaration" />
+                    <node concept="36biLy" id="46OxO0WlYXz" role="2pJxcZ">
+                      <node concept="2OqwBi" id="1WuaKdvNMtJ" role="36biLW">
+                        <node concept="37vLTw" id="1WuaKdvNLYD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1WuaKdvNKYu" resolve="builder" />
+                        </node>
+                        <node concept="3TrEf2" id="1WuaKdvNMLc" role="2OqNvi">
+                          <ref role="3Tt5mk" to="tp3r:4IP40Bi2KaL" resolve="concept" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
