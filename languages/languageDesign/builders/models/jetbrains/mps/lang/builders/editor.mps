@@ -10,13 +10,10 @@
   </languages>
   <imports>
     <import index="mw1z" ref="r:a76e1cab-8d93-4871-b851-d7b0feb961ad(jetbrains.mps.lang.builders.structure)" />
-    <import index="tp3p" ref="r:00000000-0000-4000-0000-011c89590349(jetbrains.mps.lang.quotation.editor)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpd3" ref="r:00000000-0000-4000-0000-011c895902bb(jetbrains.mps.lang.sharedConcepts.editor)" />
   </imports>
@@ -86,7 +83,6 @@
       <concept id="7667708318090725848" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentAnchorStyleClassItem" flags="ln" index="1Bsynf" />
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
-        <reference id="1081339532145" name="keyMap" index="34QXea" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
@@ -179,7 +175,6 @@
     <property role="3GE5qa" value="builderNew" />
     <ref role="1XX52x" to="mw1z:38NtPr_Ghfw" resolve="BuilderContainer" />
     <node concept="3EZMnI" id="38NtPr_GhfJ" role="2wV5jI">
-      <ref role="34QXea" to="tp3p:hqc4$is" resolve="_CreateAntiquotationKeyMap" />
       <node concept="3F0ifn" id="38NtPr_GhfK" role="3EZMnx">
         <property role="3F0ifm" value="&lt;" />
         <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
@@ -206,7 +201,6 @@
       <node concept="3F0ifn" id="38NtPr_GhfS" role="3EZMnx">
         <property role="3F0ifm" value="&gt;" />
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
-        <ref role="34QXea" to="tp3p:hqc4$mq" resolve="_Quotation_createModel" />
         <node concept="VPM3Z" id="38NtPr_GhfT" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -587,9 +581,6 @@
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
-        </node>
-        <node concept="VechU" id="2ZO5wSvoTKM" role="3F10Kt">
-          <property role="Vb096" value="DARK_MAGENTA" />
         </node>
       </node>
       <node concept="3F0ifn" id="2ZO5wSvoTKN" role="3EZMnx">

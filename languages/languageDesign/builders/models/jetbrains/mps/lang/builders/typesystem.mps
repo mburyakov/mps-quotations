@@ -95,6 +95,7 @@
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
       <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
+      <concept id="1174663239020" name="jetbrains.mps.lang.typesystem.structure.CreateGreaterThanInequationStatement" flags="nn" index="1ZoDhX" />
       <concept id="1174665551739" name="jetbrains.mps.lang.typesystem.structure.TypeVarDeclaration" flags="ng" index="1ZxtTE" />
       <concept id="1174666260556" name="jetbrains.mps.lang.typesystem.structure.TypeVarReference" flags="nn" index="1Z$b5t">
         <reference id="1174666276259" name="typeVarDeclaration" index="1Z$eMM" />
@@ -261,21 +262,21 @@
           </node>
         </node>
       </node>
-      <node concept="1Z5TYs" id="1WuaKdvILRV" role="3cqZAp">
+      <node concept="1ZoDhX" id="GPqVzQVx6f" role="3cqZAp">
         <property role="3wDh2S" value="false" />
-        <node concept="mw_s8" id="1WuaKdvILRX" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1WuaKdvILRY" role="mwGJk">
-            <node concept="1YBJjd" id="1WuaKdvILRZ" role="1Z2MuG">
+        <node concept="mw_s8" id="GPqVzQVx6h" role="1ZfhK$">
+          <node concept="1Z2H0r" id="GPqVzQVx6i" role="mwGJk">
+            <node concept="1YBJjd" id="GPqVzQVx6j" role="1Z2MuG">
               <ref role="1YBMHb" node="1WuaKdvIL2p" resolve="listBuilder" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="1WuaKdvILS0" role="1ZfhKB">
-          <node concept="2c44tf" id="1WuaKdvILS1" role="mwGJk">
-            <node concept="_YKpA" id="1WuaKdvILS2" role="2c44tc">
-              <node concept="33vP2l" id="1WuaKdvIM65" role="_ZDj9">
-                <node concept="2c44te" id="1WuaKdvIM7k" role="lGtFl">
-                  <node concept="1Z$b5t" id="1WuaKdvIMQu" role="2c44t1">
+        <node concept="mw_s8" id="GPqVzQVx6k" role="1ZfhKB">
+          <node concept="2c44tf" id="GPqVzQVx6l" role="mwGJk">
+            <node concept="_YKpA" id="GPqVzQVx6m" role="2c44tc">
+              <node concept="33vP2l" id="GPqVzQVx6n" role="_ZDj9">
+                <node concept="2c44te" id="GPqVzQVx6o" role="lGtFl">
+                  <node concept="1Z$b5t" id="GPqVzQVx6p" role="2c44t1">
                     <ref role="1Z$eMM" node="1WuaKdvIM32" resolve="elemType" />
                   </node>
                 </node>
