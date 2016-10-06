@@ -334,7 +334,70 @@
       <property role="20kJfa" value="declaration" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="4734557818232664790" />
-      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="47AvMSw6Zkj">
+    <property role="EcuMT" value="4748622693192693011" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="AbstractContainmentLinkReference" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="47AvMSw6Zkk">
+    <property role="EcuMT" value="4748622693192693012" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="StructureContainmentLinkReference" />
+    <ref role="1TJDcQ" node="47AvMSw6Zkj" resolve="AbstractContainmentLinkReference" />
+    <node concept="1TJgyj" id="47AvMSw6Zkl" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="declaration" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4748622693192693013" />
+      <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="47AvMSw6Zm4">
+    <property role="TrG5h" value="ContainmentLinkBuilder" />
+    <property role="2_RsDV" value="none" />
+    <property role="3GE5qa" value="builderNew" />
+    <property role="EcuMT" value="4748622693192693124" />
+    <ref role="1TJDcQ" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
+    <node concept="1TJgyj" id="47AvMSw6Zm5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4748622693192693125" />
+      <ref role="20lvS9" node="38NtPr_Gh3u" resolve="ExpressionBuilder" />
+    </node>
+    <node concept="1TJgyj" id="47AvMSw6Zm9" role="1TKVEi">
+      <property role="IQ2ns" value="4748622693192693129" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="link" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="47AvMSw6Zkj" resolve="AbstractContainmentLinkReference" />
+    </node>
+    <node concept="PrWs8" id="47AvMSw6Zm7" role="PzmwI">
+      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="47AvMSw8zU$">
+    <property role="EcuMT" value="4748622693193105060" />
+    <property role="3GE5qa" value="builderNew.type" />
+    <property role="TrG5h" value="NodeType" />
+    <property role="R4oN_" value="node type" />
+    <property role="34LRSv" value="node&lt;&gt;" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyj" id="47AvMSw9RuD" role="1TKVEi">
+      <property role="IQ2ns" value="4748622693193447337" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="concept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="46OxO0Wjzs1" resolve="AbstractConceptReference" />
+    </node>
+    <node concept="PrWs8" id="47AvMSwa$Y3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>

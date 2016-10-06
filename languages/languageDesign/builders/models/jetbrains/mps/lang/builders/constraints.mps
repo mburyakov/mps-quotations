@@ -403,5 +403,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="47AvMSw7TNa">
+    <property role="3GE5qa" value="" />
+    <ref role="1M2myG" to="mw1z:47AvMSw6Zkk" resolve="StructureContainmentLinkReference" />
+    <node concept="1N5Pfh" id="47AvMSw862w" role="1Mr941">
+      <ref role="1N5Vy1" to="mw1z:47AvMSw6Zkl" resolve="declaration" />
+      <node concept="1dDu$B" id="47AvMSw862$" role="1N6uqs">
+        <ref role="1dDu$A" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 
