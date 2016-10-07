@@ -243,7 +243,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="38NtPr_GhfI">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="1XX52x" to="mw1z:38NtPr_Ghfw" resolve="BuilderContainer" />
     <node concept="3EZMnI" id="38NtPr_GhfJ" role="2wV5jI">
       <node concept="3F0ifn" id="38NtPr_GhfK" role="3EZMnx">
@@ -287,7 +287,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="38NtPr_KzMt">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <ref role="1XX52x" to="mw1z:38NtPr_KyNq" resolve="CustomBuilder" />
     <node concept="3EZMnI" id="38NtPr_KzMu" role="2wV5jI">
       <node concept="3F0ifn" id="38NtPr_KzMv" role="3EZMnx">
@@ -301,7 +301,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="38NtPr_IJ6Q">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="1XX52x" to="mw1z:38NtPr_IIt0" resolve="LinkBuilder" />
     <node concept="3EZMnI" id="38NtPr_IJ6R" role="2wV5jI">
       <node concept="1iCGBv" id="38NtPr_IJ6S" role="3EZMnx">
@@ -331,7 +331,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="38NtPr_Ppek">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <ref role="1XX52x" to="mw1z:38NtPr_LeRZ" resolve="ListBuilder" />
     <node concept="3EZMnI" id="38NtPr_Ppel" role="2wV5jI">
       <node concept="l2Vlx" id="38NtPr_Ppem" role="2iSdaV" />
@@ -388,7 +388,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="38NtPr_GPDe">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="1XX52x" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
     <node concept="3EZMnI" id="38NtPr_GPDf" role="2wV5jI">
       <node concept="3F1sOY" id="46OxO0WjQNH" role="3EZMnx">
@@ -468,7 +468,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="38NtPr_PGAf">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <ref role="1XX52x" to="mw1z:38NtPr_LeS3" resolve="SublistBuilder" />
     <node concept="3EZMnI" id="38NtPr_PGAg" role="2wV5jI">
       <node concept="3F0ifn" id="38NtPr_PGAh" role="3EZMnx">
@@ -482,6 +482,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1WuaKdvJEii">
+    <property role="3GE5qa" value="util" />
     <ref role="1XX52x" to="mw1z:1WuaKdvJEhG" resolve="TypeAnnotation" />
     <node concept="3EZMnI" id="1WuaKdvJEiW" role="2wV5jI">
       <node concept="3EZMnI" id="1WuaKdvJEjo" role="3EZMnx">
@@ -511,7 +512,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="76efOMRCfEo">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="1XX52x" to="mw1z:1WuaKdvONCy" resolve="NodeReferenceBuilder" />
     <node concept="3EZMnI" id="76efOMRCfEq" role="2wV5jI">
       <node concept="1iCGBv" id="76efOMRCfEv" role="3EZMnx">
@@ -590,7 +591,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2ZO5wSvoTKH">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="1XX52x" to="mw1z:2ZO5wSvoT$6" resolve="PropertyBuilder" />
     <node concept="3EZMnI" id="2ZO5wSvoTKI" role="2wV5jI">
       <node concept="1iCGBv" id="2ZO5wSvoTKJ" role="3EZMnx">
@@ -617,7 +618,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="g$ehQsY">
-    <property role="3GE5qa" value="builderNew.type" />
+    <property role="3GE5qa" value="util.type" />
     <ref role="1XX52x" to="mw1z:2ZO5wSvAczB" resolve="NodeReferenceType" />
     <node concept="3EZMnI" id="2uL$SAGQSlu" role="6VMZX">
       <node concept="3F0ifn" id="2uL$SAGRoSv" role="3EZMnx">
@@ -709,6 +710,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="46OxO0WjBbk">
+    <property role="3GE5qa" value="structure" />
     <ref role="1XX52x" to="mw1z:46OxO0WjBbj" resolve="StructureConceptReference" />
     <node concept="1iCGBv" id="46OxO0WjPw4" role="2wV5jI">
       <ref role="1NtTu8" to="mw1z:46OxO0WjBbm" resolve="declaration" />
@@ -763,7 +765,7 @@
     </node>
   </node>
   <node concept="3p36aQ" id="46OxO0Wo7ts">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="aqKnT" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
     <node concept="3N5dw7" id="46OxO0Wo7tv" role="3ft7WO">
       <node concept="3N5aqt" id="46OxO0Wo7tx" role="3Na0zg">
@@ -789,7 +791,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="47AvMSw7b14">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="structure" />
     <ref role="1XX52x" to="mw1z:47AvMSw6Zkk" resolve="StructureContainmentLinkReference" />
     <node concept="1iCGBv" id="47AvMSw7b16" role="2wV5jI">
       <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
@@ -806,7 +808,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="47AvMSw7b1h">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="1XX52x" to="mw1z:47AvMSw6Zm4" resolve="ContainmentLinkBuilder" />
     <node concept="3EZMnI" id="47AvMSw7b1i" role="2wV5jI">
       <node concept="3F1sOY" id="47AvMSw7b1u" role="3EZMnx">
@@ -826,7 +828,7 @@
     </node>
   </node>
   <node concept="3p36aQ" id="47AvMSw8bE_">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="aqKnT" to="mw1z:47AvMSw6Zm4" resolve="ContainmentLinkBuilder" />
     <node concept="3N5dw7" id="47AvMSw8bEA" role="3ft7WO">
       <node concept="3N5aqt" id="47AvMSw8bEB" role="3Na0zg">
@@ -872,7 +874,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="47AvMSw8zUA">
-    <property role="3GE5qa" value="builderNew.type" />
+    <property role="3GE5qa" value="util.type" />
     <ref role="1XX52x" to="mw1z:47AvMSw8zU$" resolve="NodeType" />
     <node concept="3EZMnI" id="47AvMSw8zUX" role="2wV5jI">
       <node concept="3F0ifn" id="47AvMSw8zUY" role="3EZMnx">

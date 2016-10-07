@@ -285,7 +285,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="38NtPr_KyOn">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <ref role="13h7C2" to="mw1z:38NtPr_KyNq" resolve="CustomBuilder" />
     <node concept="13hLZK" id="38NtPr_KyOo" role="13h7CW">
       <node concept="3clFbS" id="38NtPr_KyOp" role="2VODD2" />
@@ -312,7 +312,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="38NtPr_IID7">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="13h7C2" to="mw1z:38NtPr_IIt0" resolve="LinkBuilder" />
     <node concept="13hLZK" id="38NtPr_IID8" role="13h7CW">
       <node concept="3clFbS" id="38NtPr_IID9" role="2VODD2" />
@@ -523,7 +523,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="38NtPr_NBtI">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <ref role="13h7C2" to="mw1z:38NtPr_LeRZ" resolve="ListBuilder" />
     <node concept="13hLZK" id="38NtPr_NBtJ" role="13h7CW">
       <node concept="3clFbS" id="38NtPr_NBtK" role="2VODD2" />
@@ -539,11 +539,11 @@
           <node concept="3cpWsn" id="2ZO5wSvBoTt" role="3cpWs9">
             <property role="TrG5h" value="builderContainer" />
             <node concept="3Tqbb2" id="2ZO5wSvBoTu" role="1tU5fm">
-              <ref role="ehGHo" to="mw1z:2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+              <ref role="ehGHo" to="mw1z:2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
             </node>
             <node concept="1PxgMI" id="2ZO5wSvCHOH" role="33vP2m">
               <property role="1BlNFB" value="true" />
-              <ref role="1m5ApE" to="mw1z:2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+              <ref role="1m5ApE" to="mw1z:2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
               <node concept="2OqwBi" id="2ZO5wSvBoTv" role="1m5AlR">
                 <node concept="13iPFW" id="2ZO5wSvD8cz" role="2Oq$k0" />
                 <node concept="1mfA1w" id="2ZO5wSvCFf5" role="2OqNvi" />
@@ -634,7 +634,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="38NtPr_GPea">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
     <node concept="13hLZK" id="38NtPr_GPeb" role="13h7CW">
       <node concept="3clFbS" id="38NtPr_GPec" role="2VODD2" />
@@ -723,7 +723,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="38NtPr_LeSx">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <ref role="13h7C2" to="mw1z:38NtPr_LeS3" resolve="SublistBuilder" />
     <node concept="13hLZK" id="38NtPr_LeSy" role="13h7CW">
       <node concept="3clFbS" id="38NtPr_LeSz" role="2VODD2" />
@@ -773,7 +773,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1WuaKdvFVZn">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     <node concept="13i0hz" id="38NtPr_GPcm" role="13h7CS">
       <property role="TrG5h" value="getChildren" />
@@ -794,7 +794,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1WuaKdvFZQn">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <ref role="13h7C2" to="mw1z:38NtPr_LeS0" resolve="ListBuilderPart" />
     <node concept="13i0hz" id="1WuaKdvFZQy" role="13h7CS">
       <property role="13i0iv" value="true" />
@@ -813,7 +813,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1WuaKdvG7sU">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <ref role="13h7C2" to="mw1z:38NtPr_Gh3u" resolve="ExpressionBuilder" />
     <node concept="13hLZK" id="1WuaKdvG7sV" role="13h7CW">
       <node concept="3clFbS" id="1WuaKdvG7sW" role="2VODD2" />
@@ -844,14 +844,14 @@
     </node>
   </node>
   <node concept="13h7C7" id="2ZO5wSvnNdX">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:1WuaKdvONCy" resolve="NodeReferenceBuilder" />
     <node concept="13hLZK" id="2ZO5wSvnNdY" role="13h7CW">
       <node concept="3clFbS" id="2ZO5wSvnNdZ" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="2ZO5wSvoT$$">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="13h7C2" to="mw1z:2ZO5wSvoT$6" resolve="PropertyBuilder" />
     <node concept="13hLZK" id="2ZO5wSvoT$_" role="13h7CW">
       <node concept="3clFbS" id="2ZO5wSvoT$A" role="2VODD2" />
@@ -901,7 +901,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2ZO5wSvrTZ2">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:38NtPr_Ghfw" resolve="BuilderContainer" />
     <node concept="13hLZK" id="2ZO5wSvrTZ3" role="13h7CW">
       <node concept="3clFbS" id="2ZO5wSvrTZ4" role="2VODD2" />
@@ -1008,8 +1008,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="2ZO5wSvvUdt">
-    <property role="3GE5qa" value="builderNew" />
-    <ref role="13h7C2" to="mw1z:2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+    <property role="3GE5qa" value="expression" />
+    <ref role="13h7C2" to="mw1z:2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     <node concept="13i0hz" id="2ZO5wSvvUdO" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -1271,14 +1271,14 @@
     </node>
   </node>
   <node concept="13h7C7" id="GPqVzQL5nF">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <ref role="13h7C2" to="mw1z:38NtPr_IIt6" resolve="AbstractBuilder" />
     <node concept="13hLZK" id="GPqVzQL5nG" role="13h7CW">
       <node concept="3clFbS" id="GPqVzQL5nH" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="GPqVzQR1wH">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <ref role="13h7C2" to="mw1z:GPqVzQQZQF" resolve="CustomExpressionContainer" />
     <node concept="13i0hz" id="GPqVzQR1wS" role="13h7CS">
       <property role="13i0iv" value="true" />
@@ -1316,6 +1316,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="46OxO0Wmlxk">
+    <property role="3GE5qa" value="structure" />
     <ref role="13h7C2" to="mw1z:46OxO0WjBbj" resolve="StructureConceptReference" />
     <node concept="13hLZK" id="46OxO0Wmlxl" role="13h7CW">
       <node concept="3clFbS" id="46OxO0Wmlxm" role="2VODD2" />
@@ -1420,7 +1421,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="47AvMSw6Znp">
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <ref role="13h7C2" to="mw1z:47AvMSw6Zm4" resolve="ContainmentLinkBuilder" />
     <node concept="13hLZK" id="47AvMSw6Znq" role="13h7CW">
       <node concept="3clFbS" id="47AvMSw6Znr" role="2VODD2" />
@@ -1569,7 +1570,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="47AvMSwa$Yw">
-    <property role="3GE5qa" value="builderNew.type" />
+    <property role="3GE5qa" value="util.type" />
     <ref role="13h7C2" to="mw1z:47AvMSw8zU$" resolve="NodeType" />
     <node concept="13i0hz" id="47AvMSwa$YF" role="13h7CS">
       <property role="TrG5h" value="getScope" />
@@ -1646,7 +1647,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="47AvMSwb_Wb">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="structure" />
     <ref role="13h7C2" to="mw1z:47AvMSw6Zkk" resolve="StructureContainmentLinkReference" />
     <node concept="13hLZK" id="47AvMSwb_Wc" role="13h7CW">
       <node concept="3clFbS" id="47AvMSwb_Wd" role="2VODD2" />
@@ -1711,7 +1712,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="47AvMSwbAbc">
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:47AvMSw6Zkj" resolve="AbstractContainmentLinkReference" />
     <node concept="13i0hz" id="47AvMSwbDkx" role="13h7CS">
       <property role="TrG5h" value="isSingular" />

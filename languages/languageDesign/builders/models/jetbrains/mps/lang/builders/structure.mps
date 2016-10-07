@@ -66,7 +66,7 @@
   </registry>
   <node concept="1TIwiD" id="38NtPr_IIt6">
     <property role="EcuMT" value="3617366140813764422" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="AbstractBuilder" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -75,7 +75,7 @@
   <node concept="1TIwiD" id="38NtPr_Ghfw">
     <property role="TrG5h" value="BuilderContainer" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <property role="34LRSv" value="&lt;builder&gt;" />
     <property role="EcuMT" value="3617366140813120480" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -87,13 +87,13 @@
       <ref role="20lvS9" node="38NtPr_Gh3u" resolve="ExpressionBuilder" />
     </node>
     <node concept="PrWs8" id="2ZO5wSvwkB0" role="PzmwI">
-      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="38NtPr_KyNq">
     <property role="TrG5h" value="CustomBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <property role="EcuMT" value="3617366140814240986" />
     <property role="34LRSv" value="#" />
     <property role="R4oN_" value="baseLanguage expression" />
@@ -111,7 +111,7 @@
   </node>
   <node concept="1TIwiD" id="38NtPr_Gh3u">
     <property role="EcuMT" value="3617366140813119710" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="ExpressionBuilder" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -123,7 +123,7 @@
   <node concept="1TIwiD" id="38NtPr_IIt0">
     <property role="TrG5h" value="LinkBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <property role="EcuMT" value="3617366140813764416" />
     <ref role="1TJDcQ" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     <node concept="1TJgyj" id="38NtPr_IIt1" role="1TKVEi">
@@ -141,19 +141,19 @@
       <ref role="20lvS9" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
     </node>
     <node concept="PrWs8" id="2ZO5wSvvU3c" role="PzmwI">
-      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="38NtPr_LeRZ">
     <property role="EcuMT" value="3617366140814421503" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <property role="TrG5h" value="ListBuilder" />
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
     <property role="34LRSv" value="[list]" />
     <ref role="1TJDcQ" node="38NtPr_Gh3u" resolve="ExpressionBuilder" />
     <node concept="PrWs8" id="2ZO5wSvCEoI" role="PzmwI">
-      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     </node>
     <node concept="1TJgyj" id="38NtPr_NByI" role="1TKVEi">
       <property role="IQ2ns" value="3617366140815046830" />
@@ -165,13 +165,13 @@
   </node>
   <node concept="PlHQZ" id="38NtPr_LeS0">
     <property role="EcuMT" value="3617366140814421504" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <property role="TrG5h" value="ListBuilderPart" />
   </node>
   <node concept="1TIwiD" id="38NtPr_GPbG">
     <property role="TrG5h" value="NodeBuilderAB" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <property role="EcuMT" value="3617366140813267692" />
     <ref role="1TJDcQ" node="38NtPr_Gh3u" resolve="ExpressionBuilder" />
     <node concept="1TJgyj" id="38NtPr_GPbH" role="1TKVEi">
@@ -195,7 +195,7 @@
   <node concept="1TIwiD" id="38NtPr_I0Hu">
     <property role="TrG5h" value="NodeFeatureBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <property role="EcuMT" value="3617366140813577054" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -203,7 +203,7 @@
   </node>
   <node concept="1TIwiD" id="38NtPr_LeS3">
     <property role="EcuMT" value="3617366140814421507" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression.list" />
     <property role="TrG5h" value="SublistBuilder" />
     <property role="34LRSv" value="%" />
     <property role="R4oN_" value="sublist" />
@@ -225,6 +225,7 @@
   <node concept="1TIwiD" id="1WuaKdvJEhG">
     <property role="EcuMT" value="2242276957968311404" />
     <property role="TrG5h" value="TypeAnnotation" />
+    <property role="3GE5qa" value="util" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="1TJgyi" id="1WuaKdvM1J_" role="1TKVEl">
       <property role="IQ2nx" value="2242276957968931813" />
@@ -250,7 +251,7 @@
   </node>
   <node concept="1TIwiD" id="1WuaKdvONCy">
     <property role="EcuMT" value="2242276957969660450" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="node" />
     <property role="TrG5h" value="NodeReferenceBuilder" />
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
@@ -266,7 +267,7 @@
   <node concept="1TIwiD" id="2ZO5wSvoT$6">
     <property role="TrG5h" value="PropertyBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <property role="EcuMT" value="3455411064011987206" />
     <ref role="1TJDcQ" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     <node concept="1TJgyj" id="2ZO5wSvoT$7" role="1TKVEi">
@@ -289,15 +290,15 @@
   </node>
   <node concept="PlHQZ" id="2ZO5wSvvU2Z">
     <property role="EcuMT" value="3455411064013824191" />
-    <property role="3GE5qa" value="builderNew" />
-    <property role="TrG5h" value="IBuilderContainer" />
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="IExpressionBuilderContainer" />
     <node concept="PrWs8" id="46OxO0Wrq10" role="PrDN$">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2ZO5wSvAczB">
     <property role="EcuMT" value="3455411064015472871" />
-    <property role="3GE5qa" value="builderNew.type" />
+    <property role="3GE5qa" value="util.type" />
     <property role="TrG5h" value="NodeReferenceType" />
     <property role="R4oN_" value="node reference type" />
     <property role="34LRSv" value="nodeRef&lt;&gt;" />
@@ -310,7 +311,7 @@
   </node>
   <node concept="PlHQZ" id="GPqVzQQZQF">
     <property role="EcuMT" value="807670150342639019" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="CustomExpressionContainer" />
   </node>
   <node concept="1TIwiD" id="46OxO0Wjzs1">
@@ -318,6 +319,7 @@
     <property role="TrG5h" value="AbstractConceptReference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="node" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="46OxO0WlTAV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -328,6 +330,7 @@
     <property role="TrG5h" value="StructureConceptReference" />
     <property role="R5$K7" value="false" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="structure" />
     <ref role="1TJDcQ" node="46OxO0Wjzs1" resolve="AbstractConceptReference" />
     <node concept="1TJgyj" id="46OxO0WjBbm" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -339,7 +342,7 @@
   </node>
   <node concept="1TIwiD" id="47AvMSw6Zkj">
     <property role="EcuMT" value="4748622693192693011" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="node" />
     <property role="TrG5h" value="AbstractContainmentLinkReference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -347,7 +350,7 @@
   </node>
   <node concept="1TIwiD" id="47AvMSw6Zkk">
     <property role="EcuMT" value="4748622693192693012" />
-    <property role="3GE5qa" value="" />
+    <property role="3GE5qa" value="structure" />
     <property role="TrG5h" value="StructureContainmentLinkReference" />
     <ref role="1TJDcQ" node="47AvMSw6Zkj" resolve="AbstractContainmentLinkReference" />
     <node concept="1TJgyj" id="47AvMSw6Zkl" role="1TKVEi">
@@ -361,7 +364,7 @@
   <node concept="1TIwiD" id="47AvMSw6Zm4">
     <property role="TrG5h" value="ContainmentLinkBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="builderNew" />
+    <property role="3GE5qa" value="structure" />
     <property role="EcuMT" value="4748622693192693124" />
     <ref role="1TJDcQ" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     <node concept="1TJgyj" id="47AvMSw6Zm5" role="1TKVEi">
@@ -379,12 +382,12 @@
       <ref role="20lvS9" node="47AvMSw6Zkj" resolve="AbstractContainmentLinkReference" />
     </node>
     <node concept="PrWs8" id="47AvMSw6Zm7" role="PzmwI">
-      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IBuilderContainer" />
+      <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="47AvMSw8zU$">
     <property role="EcuMT" value="4748622693193105060" />
-    <property role="3GE5qa" value="builderNew.type" />
+    <property role="3GE5qa" value="util.type" />
     <property role="TrG5h" value="NodeType" />
     <property role="R4oN_" value="node type" />
     <property role="34LRSv" value="node&lt;&gt;" />
