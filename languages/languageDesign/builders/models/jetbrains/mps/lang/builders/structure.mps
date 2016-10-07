@@ -31,9 +31,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
-        <child id="1169127546356" name="extends" index="PrDN$" />
-      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -191,6 +189,9 @@
     <node concept="PrWs8" id="38NtPr_JOta" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="47AvMSwcZG3" role="PzmwI">
+      <ref role="PrY4T" node="47AvMSwcReU" resolve="IConceptReferenceContainer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="38NtPr_I0Hu">
     <property role="TrG5h" value="NodeFeatureBuilder" />
@@ -292,9 +293,6 @@
     <property role="EcuMT" value="3455411064013824191" />
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="IExpressionBuilderContainer" />
-    <node concept="PrWs8" id="46OxO0Wrq10" role="PrDN$">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2ZO5wSvAczB">
     <property role="EcuMT" value="3455411064015472871" />
@@ -402,6 +400,11 @@
     <node concept="PrWs8" id="47AvMSwa$Y3" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="47AvMSwcReU">
+    <property role="EcuMT" value="4748622693194232762" />
+    <property role="3GE5qa" value="structure" />
+    <property role="TrG5h" value="IConceptReferenceContainer" />
   </node>
 </model>
 
