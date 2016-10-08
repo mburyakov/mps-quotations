@@ -11,6 +11,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -141,6 +142,7 @@
     <node concept="PrWs8" id="2ZO5wSvvU3c" role="PzmwI">
       <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
     </node>
+    <node concept="asaX9" id="1nkqjyGiHU4" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="38NtPr_LeRZ">
     <property role="EcuMT" value="3617366140814421503" />
@@ -288,6 +290,7 @@
     <node concept="PrWs8" id="GPqVzQQZR7" role="PzmwI">
       <ref role="PrY4T" node="GPqVzQQZQF" resolve="CustomExpressionContainer" />
     </node>
+    <node concept="asaX9" id="1nkqjyGiI8T" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="2ZO5wSvvU2Z">
     <property role="EcuMT" value="3455411064013824191" />

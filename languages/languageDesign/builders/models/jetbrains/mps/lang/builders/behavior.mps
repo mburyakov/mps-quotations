@@ -45,6 +45,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
+        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -89,6 +90,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -137,6 +139,12 @@
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -2661,6 +2669,40 @@
       <node concept="3uibUv" id="1nkqjyG90P3" role="3clF45">
         <ref role="3uigEE" to="ze1i:~IconResource" resolve="IconResource" />
       </node>
+    </node>
+    <node concept="13i0hz" id="1nkqjyGiQp$" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getPresentation" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="1nkqjyGiQqG" role="1B3o_S" />
+      <node concept="3clFbS" id="1nkqjyGiQqH" role="3clF47">
+        <node concept="3SKdUt" id="1nkqjyGcwNY" role="3cqZAp">
+          <node concept="3SKdUq" id="1nkqjyGcwO0" role="3SKWNk">
+            <property role="3SKdUp" value="this is needed because PropertyDeclaration.getPresentation() always returns &quot;PropertyDeclaraion&quot;" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1nkqjyGcxv6" role="3cqZAp">
+          <node concept="3SKdUq" id="1nkqjyGcxv8" role="3SKWNk">
+            <property role="3SKdUp" value="see MPS-24760" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1nkqjyGiRHQ" role="3cqZAp">
+          <node concept="2OqwBi" id="1nkqjyGiRm9" role="3cqZAk">
+            <node concept="2OqwBi" id="1nkqjyGiQPn" role="2Oq$k0">
+              <node concept="13iPFW" id="1nkqjyGiQHA" role="2Oq$k0" />
+              <node concept="3TrEf2" id="1nkqjyGiR0a" role="2OqNvi">
+                <ref role="3Tt5mk" to="mw1z:1nkqjyG90On" resolve="declaration" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="1nkqjyGiRD9" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="1nkqjyGiQqI" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="1nkqjyG9KnF">
