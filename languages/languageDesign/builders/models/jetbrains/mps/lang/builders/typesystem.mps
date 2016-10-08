@@ -433,7 +433,7 @@
   </node>
   <node concept="1YbPZF" id="2ZO5wSvof$x">
     <property role="TrG5h" value="typeof_LinkBuilder" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="structure.deprecated" />
     <node concept="3clFbS" id="2ZO5wSvof$y" role="18ibNy">
       <node concept="3clFbJ" id="2ZO5wSvF_fU" role="3cqZAp">
         <node concept="3clFbS" id="2ZO5wSvF_fW" role="3clFbx">
@@ -615,7 +615,7 @@
   </node>
   <node concept="1YbPZF" id="2ZO5wSvpbLO">
     <property role="TrG5h" value="typeof_PropertyBuilder" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="structure.deprecated" />
     <node concept="3clFbS" id="2ZO5wSvpbLP" role="18ibNy">
       <node concept="1ZobV4" id="2ZO5wSvpbLX" role="3cqZAp">
         <property role="3wDh2S" value="true" />
