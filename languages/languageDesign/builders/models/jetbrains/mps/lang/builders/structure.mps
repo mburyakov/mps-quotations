@@ -362,7 +362,7 @@
   <node concept="1TIwiD" id="47AvMSw6Zm4">
     <property role="TrG5h" value="ContainmentLinkBuilder" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="node" />
     <property role="EcuMT" value="4748622693192693124" />
     <ref role="1TJDcQ" node="38NtPr_I0Hu" resolve="NodeFeatureBuilder" />
     <node concept="1TJgyj" id="47AvMSw6Zm5" role="1TKVEi">
@@ -381,6 +381,9 @@
     </node>
     <node concept="PrWs8" id="47AvMSw6Zm7" role="PzmwI">
       <ref role="PrY4T" node="2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
+    </node>
+    <node concept="PrWs8" id="1nkqjyG0$IW" role="PzmwI">
+      <ref role="PrY4T" node="1nkqjyG0w56" resolve="IContainmentLinkReferenceContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="47AvMSw8zU$">
@@ -405,6 +408,11 @@
     <property role="EcuMT" value="4748622693194232762" />
     <property role="3GE5qa" value="structure" />
     <property role="TrG5h" value="IConceptReferenceContainer" />
+  </node>
+  <node concept="PlHQZ" id="1nkqjyG0w56">
+    <property role="EcuMT" value="1572997861984043334" />
+    <property role="3GE5qa" value="structure" />
+    <property role="TrG5h" value="IContainmentLinkReferenceContainer" />
   </node>
 </model>
 
