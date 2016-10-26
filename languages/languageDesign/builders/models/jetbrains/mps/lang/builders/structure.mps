@@ -274,7 +274,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="node" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6LlIhbeK3qJ" resolve="AbstractMetaReference" />
     <node concept="PrWs8" id="46OxO0WlTAV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -285,7 +285,7 @@
     <property role="TrG5h" value="AbstractContainmentLinkReference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6LlIhbeIA4i" resolve="ConceptMemberReference" />
   </node>
   <node concept="1TIwiD" id="47AvMSw6Zm4">
     <property role="TrG5h" value="ContainmentLinkBuilder" />
@@ -353,7 +353,7 @@
     <property role="TrG5h" value="AbstractReferenceLinkReference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6LlIhbeIA4i" resolve="ConceptMemberReference" />
   </node>
   <node concept="1TIwiD" id="1nkqjyG5BNf">
     <property role="TrG5h" value="ReferenceLinkBuilder" />
@@ -388,7 +388,7 @@
     <property role="TrG5h" value="AbstractPropertyReference" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="6LlIhbeIA4i" resolve="ConceptMemberReference" />
   </node>
   <node concept="PlHQZ" id="1nkqjyG90Ms">
     <property role="EcuMT" value="1572997861986274460" />
@@ -421,6 +421,22 @@
     <node concept="PrWs8" id="1nkqjyG9Kgq" role="PzmwI">
       <ref role="PrY4T" node="GPqVzQQZQF" resolve="CustomExpressionContainer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6LlIhbeIA4i">
+    <property role="EcuMT" value="7806349019545493778" />
+    <property role="3GE5qa" value="node" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="ConceptMemberReference" />
+    <ref role="1TJDcQ" node="6LlIhbeK3qJ" resolve="AbstractMetaReference" />
+  </node>
+  <node concept="1TIwiD" id="6LlIhbeK3qJ">
+    <property role="EcuMT" value="7806349019545876143" />
+    <property role="3GE5qa" value="node" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="AbstractMetaReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
