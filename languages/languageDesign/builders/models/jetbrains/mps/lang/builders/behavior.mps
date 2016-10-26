@@ -1304,6 +1304,16 @@
       <node concept="10P_77" id="47AvMSwbDkP" role="3clF45" />
       <node concept="3clFbS" id="47AvMSwbDk$" role="3clF47" />
     </node>
+    <node concept="13i0hz" id="6LlIhbeH6L4" role="13h7CS">
+      <property role="TrG5h" value="getOwner" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeH6L5" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6LlIhbeH6L6" role="3clF45">
+        <ref role="ehGHo" to="mw1z:46OxO0Wjzs1" resolve="AbstractConceptReference" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeH6L7" role="3clF47" />
+    </node>
     <node concept="13i0hz" id="47AvMSwbAbn" role="13h7CS">
       <property role="TrG5h" value="targetConcept" />
       <property role="13i0it" value="true" />
@@ -1313,6 +1323,19 @@
         <ref role="ehGHo" to="mw1z:46OxO0Wjzs1" resolve="AbstractConceptReference" />
       </node>
       <node concept="3clFbS" id="47AvMSwbAbq" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6LlIhbeH74B" role="13h7CS">
+      <property role="TrG5h" value="toRuntimeLink" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeH74C" role="1B3o_S" />
+      <node concept="3uibUv" id="6LlIhbeH76l" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SContainmentLink" resolve="SContainmentLink" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeH74E" role="3clF47" />
+      <node concept="2AHcQZ" id="6LlIhbeH74F" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
     </node>
     <node concept="13i0hz" id="1nkqjyG4W3O" role="13h7CS">
       <property role="TrG5h" value="getIcon" />
@@ -1472,6 +1495,29 @@
         <ref role="ehGHo" to="mw1z:46OxO0Wjzs1" resolve="AbstractConceptReference" />
       </node>
       <node concept="3clFbS" id="1nkqjyG5$Wu" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6LlIhbeHa1$" role="13h7CS">
+      <property role="TrG5h" value="getOwner" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeHa1_" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6LlIhbeHa1A" role="3clF45">
+        <ref role="ehGHo" to="mw1z:46OxO0Wjzs1" resolve="AbstractConceptReference" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeHa1B" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6LlIhbeH9Zn" role="13h7CS">
+      <property role="TrG5h" value="toRuntimeLink" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeH9Zo" role="1B3o_S" />
+      <node concept="3uibUv" id="6LlIhbeHa0A" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SReferenceLink" resolve="SReferenceLink" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeH9Zq" role="3clF47" />
+      <node concept="2AHcQZ" id="6LlIhbeH9Zr" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
     </node>
     <node concept="13i0hz" id="1nkqjyG5$Wv" role="13h7CS">
       <property role="TrG5h" value="getIcon" />
@@ -1729,6 +1775,29 @@
   <node concept="13h7C7" id="1nkqjyG90MU">
     <property role="3GE5qa" value="node" />
     <ref role="13h7C2" to="mw1z:1nkqjyG90Mr" resolve="AbstractPropertyReference" />
+    <node concept="13i0hz" id="6LlIhbeHd$Q" role="13h7CS">
+      <property role="TrG5h" value="getOwner" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeHd$R" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6LlIhbeHd$S" role="3clF45">
+        <ref role="ehGHo" to="mw1z:46OxO0Wjzs1" resolve="AbstractConceptReference" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeHd$T" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="6LlIhbeHd$U" role="13h7CS">
+      <property role="TrG5h" value="toRuntimeProperty" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="6LlIhbeHd$V" role="1B3o_S" />
+      <node concept="3uibUv" id="6LlIhbeHd_x" role="3clF45">
+        <ref role="3uigEE" to="c17a:~SProperty" resolve="SProperty" />
+      </node>
+      <node concept="3clFbS" id="6LlIhbeHd$X" role="3clF47" />
+      <node concept="2AHcQZ" id="6LlIhbeHd$Y" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
     <node concept="13i0hz" id="1nkqjyG90N5" role="13h7CS">
       <property role="TrG5h" value="getIcon" />
       <property role="13i0it" value="true" />
