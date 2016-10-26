@@ -9,6 +9,7 @@
     <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="mw1z" ref="r:a76e1cab-8d93-4871-b851-d7b0feb961ad(jetbrains.mps.lang.builders.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="jhas" ref="r:0bd5e73e-87b1-4694-b605-786ea1dc6d90(jetbrains.mps.lang.builders.structure.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -524,9 +525,9 @@
                   <node concept="2pIpSj" id="1WuaKdvNXBA" role="2pJxcM">
                     <ref role="2pIpSl" to="mw1z:47AvMSw6Zm9" resolve="link" />
                     <node concept="2pJPED" id="1nkqjyGiwY8" role="2pJxcZ">
-                      <ref role="2pJxaS" to="mw1z:47AvMSw6Zkk" resolve="StructureContainmentLinkReference" />
+                      <ref role="2pJxaS" to="jhas:47AvMSw6Zkk" resolve="StructureContainmentLinkReference" />
                       <node concept="2pIpSj" id="1nkqjyGiwY_" role="2pJxcM">
-                        <ref role="2pIpSl" to="mw1z:47AvMSw6Zkl" resolve="declaration" />
+                        <ref role="2pIpSl" to="jhas:47AvMSw6Zkl" resolve="declaration" />
                         <node concept="36biLy" id="1nkqjyGiwZ_" role="2pJxcZ">
                           <node concept="2OqwBi" id="1WuaKdvNXUR" role="36biLW">
                             <node concept="37vLTw" id="1WuaKdvNXM2" role="2Oq$k0">
@@ -589,9 +590,9 @@
                     <node concept="2pIpSj" id="1nkqjyGitMq" role="2pJxcM">
                       <ref role="2pIpSl" to="mw1z:1nkqjyG5BNh" resolve="link" />
                       <node concept="2pJPED" id="1nkqjyGixuL" role="2pJxcZ">
-                        <ref role="2pJxaS" to="mw1z:1nkqjyG5$Ym" resolve="StructureReferenceLinkReference" />
+                        <ref role="2pJxaS" to="jhas:1nkqjyG5$Ym" resolve="StructureReferenceLinkReference" />
                         <node concept="2pIpSj" id="1nkqjyGixve" role="2pJxcM">
-                          <ref role="2pIpSl" to="mw1z:1nkqjyG5$Yn" resolve="declaration" />
+                          <ref role="2pIpSl" to="jhas:1nkqjyG5$Yn" resolve="declaration" />
                           <node concept="36biLy" id="1nkqjyGixwe" role="2pJxcZ">
                             <node concept="2OqwBi" id="1nkqjyGitMs" role="36biLW">
                               <node concept="37vLTw" id="1nkqjyGitMt" role="2Oq$k0">
@@ -651,9 +652,9 @@
               <node concept="2pIpSj" id="2ZO5wSvoT6H" role="2pJxcM">
                 <ref role="2pIpSl" to="mw1z:1nkqjyG9Kmq" resolve="property" />
                 <node concept="2pJPED" id="1nkqjyGiBW1" role="2pJxcZ">
-                  <ref role="2pJxaS" to="mw1z:1nkqjyG90Om" resolve="StructurePropertyReference" />
+                  <ref role="2pJxaS" to="jhas:1nkqjyG90Om" resolve="StructurePropertyReference" />
                   <node concept="2pIpSj" id="1nkqjyGiBWu" role="2pJxcM">
-                    <ref role="2pIpSl" to="mw1z:1nkqjyG90On" resolve="declaration" />
+                    <ref role="2pIpSl" to="jhas:1nkqjyG90On" resolve="declaration" />
                     <node concept="36biLy" id="1nkqjyGiBXu" role="2pJxcZ">
                       <node concept="2OqwBi" id="2ZO5wSvoT6J" role="36biLW">
                         <node concept="37vLTw" id="2ZO5wSvoT6K" role="2Oq$k0">
@@ -785,9 +786,9 @@
               <node concept="2pIpSj" id="1WuaKdvNLWf" role="2pJxcM">
                 <ref role="2pIpSl" to="mw1z:46OxO0WjQND" resolve="concept" />
                 <node concept="2pJPED" id="46OxO0WlYW6" role="2pJxcZ">
-                  <ref role="2pJxaS" to="mw1z:46OxO0WjBbj" resolve="StructureConceptReference" />
+                  <ref role="2pJxaS" to="jhas:46OxO0WjBbj" resolve="StructureConceptReference" />
                   <node concept="2pIpSj" id="46OxO0WlYWz" role="2pJxcM">
-                    <ref role="2pIpSl" to="mw1z:46OxO0WjBbm" resolve="declaration" />
+                    <ref role="2pIpSl" to="jhas:46OxO0WjBbm" resolve="declaration" />
                     <node concept="36biLy" id="46OxO0WlYXz" role="2pJxcZ">
                       <node concept="2OqwBi" id="1WuaKdvNMtJ" role="36biLW">
                         <node concept="37vLTw" id="1WuaKdvNLYD" role="2Oq$k0">

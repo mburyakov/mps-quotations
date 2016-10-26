@@ -4,31 +4,36 @@
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
-    <use id="698a8d22-a104-47a0-ba8d-10e3ec237f13" name="jetbrains.mps.build.workflow" version="0" />
-    <use id="58f98fef-90ad-4b72-a390-fad66ec7005a" name="jetbrains.mps.core.properties" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
-    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="28aadfec-a9de-494f-9e64-954d0571bcf0" name="jetbrains.mps.lang.builders" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
-    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="d1921f4d-8292-4a95-9565-bfaac6ee3745" name="jetbrains.mps.lang.builders.structure" version="0" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tp6m" ref="r:00000000-0000-4000-0000-011c895903a2(jetbrains.mps.lang.test.runtime)" />
     <import index="mw1z" ref="r:a76e1cab-8d93-4871-b851-d7b0feb961ad(jetbrains.mps.lang.builders.structure)" />
     <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
     <import index="2rgw" ref="r:0d106001-07b4-49db-97fd-37a562312fef(jetbrains.mps.lang.builders.intentions)" />
     <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
-    <import index="ouhv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.annotation(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="d1921f4d-8292-4a95-9565-bfaac6ee3745" name="jetbrains.mps.lang.builders.structure">
+      <concept id="1572997861985374102" name="jetbrains.mps.lang.builders.structure.structure.StructureReferenceLinkReference" flags="ng" index="2TKyqI">
+        <reference id="1572997861985374103" name="declaration" index="2TKyqJ" />
+      </concept>
+      <concept id="1572997861986274582" name="jetbrains.mps.lang.builders.structure.structure.StructurePropertyReference" flags="ng" index="2TW6gI">
+        <reference id="1572997861986274583" name="declaration" index="2TW6gJ" />
+      </concept>
+      <concept id="4748622693192693012" name="jetbrains.mps.lang.builders.structure.structure.StructureContainmentLinkReference" flags="ng" index="1xZoCU">
+        <reference id="4748622693192693013" name="declaration" index="1xZoCV" />
+      </concept>
+      <concept id="4734557818232664787" name="jetbrains.mps.lang.builders.structure.structure.StructureConceptReference" flags="ng" index="1XYJmj">
+        <reference id="4734557818232664790" name="declaration" index="1XYJmm" />
+      </concept>
+    </language>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
       <concept id="1211979288880" name="jetbrains.mps.lang.test.structure.AssertMatch" flags="nn" index="JA50E">
         <child id="1211979305365" name="before" index="JA92f" />
@@ -107,12 +112,6 @@
         <child id="1572997861985385680" name="value" index="2TKxnC" />
         <child id="1572997861985385681" name="link" index="2TKxnD" />
       </concept>
-      <concept id="1572997861985374102" name="jetbrains.mps.lang.builders.structure.StructureReferenceLinkReference" flags="ng" index="2TKyqI">
-        <reference id="1572997861985374103" name="declaration" index="2TKyqJ" />
-      </concept>
-      <concept id="1572997861986274582" name="jetbrains.mps.lang.builders.structure.StructurePropertyReference" flags="ng" index="2TW6gI">
-        <reference id="1572997861986274583" name="declaration" index="2TW6gJ" />
-      </concept>
       <concept id="1572997861986468887" name="jetbrains.mps.lang.builders.structure.PropertyBuilder" flags="nn" index="2TWQOJ">
         <child id="1572997861986469274" name="property" index="2TWQMy" />
         <child id="1572997861986468888" name="value" index="2TWQOw" />
@@ -136,15 +135,9 @@
       <concept id="3617366140814421503" name="jetbrains.mps.lang.builders.structure.ListBuilder" flags="ng" index="3nXTED">
         <child id="3617366140815046830" name="parts" index="3nZgZS" />
       </concept>
-      <concept id="4748622693192693012" name="jetbrains.mps.lang.builders.structure.StructureContainmentLinkReference" flags="ng" index="1xZoCU">
-        <reference id="4748622693192693013" name="declaration" index="1xZoCV" />
-      </concept>
       <concept id="4748622693192693124" name="jetbrains.mps.lang.builders.structure.ContainmentLinkBuilder" flags="nn" index="1xZoEE">
         <child id="4748622693192693129" name="link" index="1xZoEB" />
         <child id="4748622693192693125" name="value" index="1xZoEF" />
-      </concept>
-      <concept id="4734557818232664787" name="jetbrains.mps.lang.builders.structure.StructureConceptReference" flags="ng" index="1XYJmj">
-        <reference id="4734557818232664790" name="declaration" index="1XYJmm" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
