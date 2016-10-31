@@ -246,6 +246,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -278,6 +279,7 @@
   </registry>
   <node concept="bUwia" id="6LlIhbeMgKX">
     <property role="TrG5h" value="main" />
+    <property role="3GE5qa" value="description" />
     <node concept="3lhOvk" id="6LlIhbeT3hk" role="3lj3bC">
       <ref role="30HIoZ" to="jb9u:6LlIhbeMgT$" resolve="DerivingList" />
       <ref role="3lhOvi" node="6LlIhbeSLMx" resolve="DerivingList" />
@@ -339,6 +341,7 @@
   </node>
   <node concept="jVnub" id="2wQ3F8Gfby3">
     <property role="TrG5h" value="DerivingAspectDescriptor" />
+    <property role="3GE5qa" value="description" />
     <ref role="phYkn" to="ucur:1KHvivZJsL7" resolve="InstantiateAspectDescriptor" />
     <node concept="3aamgX" id="1na$wSWf3eT" role="3aUrZf">
       <ref role="30HIoZ" to="hypd:5xDtKQA7vSB" resolve="ModelReference" />
@@ -386,6 +389,7 @@
   </node>
   <node concept="312cEu" id="2wQ3F8GeZrq">
     <property role="TrG5h" value="DerivingDescriptor" />
+    <property role="3GE5qa" value="description" />
     <node concept="312cEg" id="6LlIhbeSFWJ" role="jymVt">
       <property role="TrG5h" value="myRules" />
       <node concept="3Tm6S6" id="6LlIhbeSFWK" role="1B3o_S" />
@@ -498,6 +502,7 @@
   </node>
   <node concept="13MO4I" id="6LlIhbeSLHB">
     <property role="TrG5h" value="reduce_SimpleDerivingRule" />
+    <property role="3GE5qa" value="description" />
     <ref role="3gUMe" to="jb9u:6LlIhbeShyQ" resolve="SimpleDerivingRule" />
     <node concept="312cEu" id="6LlIhbeT4c5" role="13RCb5">
       <property role="TrG5h" value="RootClass" />
@@ -626,6 +631,7 @@
   </node>
   <node concept="312cEu" id="6LlIhbeSLMx">
     <property role="TrG5h" value="DerivingList" />
+    <property role="3GE5qa" value="description" />
     <node concept="Wx3nA" id="6LlIhbf1AlF" role="jymVt">
       <property role="TrG5h" value="myEntity" />
       <property role="3TUv4t" value="true" />
@@ -751,6 +757,7 @@
   </node>
   <node concept="13MO4I" id="6LlIhbeTxt3">
     <property role="TrG5h" value="reduce_SimpleDerivingEntity" />
+    <property role="3GE5qa" value="description" />
     <ref role="3gUMe" to="jb9u:6LlIhbeShyK" resolve="SimpleDerivingEntity" />
     <node concept="312cEu" id="6LlIhbeTxt4" role="13RCb5">
       <property role="TrG5h" value="RootClass3" />
@@ -832,6 +839,7 @@
   </node>
   <node concept="13MO4I" id="6LlIhbf1tyl">
     <property role="TrG5h" value="reduce_DerivingEntityReference" />
+    <property role="3GE5qa" value="description" />
     <ref role="3gUMe" to="jb9u:6LlIhbf1k0t" resolve="DerivingEntityReference" />
     <node concept="312cEu" id="6LlIhbf1tYy" role="13RCb5">
       <property role="TrG5h" value="RootClass2" />
