@@ -178,5 +178,30 @@
     <property role="3GE5qa" value="reference" />
     <property role="TrG5h" value="ImplicitParameterProvider" />
   </node>
+  <node concept="1TIwiD" id="3F2FyKbNNqb">
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="WithStatement" />
+    <property role="EcuMT" value="4234138103881610891" />
+    <property role="34LRSv" value="with" />
+    <property role="R4oN_" value="implicit parameter provider" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="3F2FyKbNNqc" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="stmts" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4234138103881610892" />
+      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
+    </node>
+    <node concept="1TJgyj" id="3F2FyKbNNqR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="parameter" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="4234138103881610935" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="3Du9kbA$Ymn" role="PzmwI">
+      <ref role="PrY4T" node="3Du9kbAp8WM" resolve="ImplicitParameterProvider" />
+    </node>
+  </node>
 </model>
 
