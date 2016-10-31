@@ -1126,6 +1126,62 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="3Du9kbA_ng$" role="1SL9yI">
+      <property role="TrG5h" value="test12" />
+      <node concept="3cqZAl" id="3Du9kbA_ng_" role="3clF45" />
+      <node concept="3clFbS" id="3Du9kbA_ngA" role="3clF47">
+        <node concept="3cpWs8" id="3Du9kbA_ngG" role="3cqZAp">
+          <node concept="3cpWsn" id="3Du9kbA_ngH" role="3cpWs9">
+            <property role="TrG5h" value="b" />
+            <node concept="3nwAiQ" id="3Du9kbA_ngI" role="33vP2m">
+              <node concept="3nw2mU" id="3Du9kbA_t9X" role="3nwAiR">
+                <node concept="2TKxnR" id="3Du9kbA_tNi" role="3nw2mV">
+                  <node concept="10Nh4x" id="3Du9kbA_uH7" role="2TKxnC">
+                    <ref role="10Nh4B" to="wyt6:~Object.wait():void" resolve="wait" />
+                  </node>
+                  <node concept="2TKyqI" id="3Du9kbA_tgY" role="2TKxnD">
+                    <ref role="2TKyqJ" to="tpee:hwllgre" resolve="instanceMethodDeclaration" />
+                  </node>
+                </node>
+                <node concept="1XYJmj" id="3Du9kbA_qM4" role="1XYYID">
+                  <ref role="1XYJmm" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+                </node>
+              </node>
+            </node>
+            <node concept="3Tqbb2" id="3Du9kbA_xAf" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3Du9kbA_ngR" role="3cqZAp">
+          <node concept="3cpWsn" id="3Du9kbA_ngS" role="3cpWs9">
+            <property role="TrG5h" value="l" />
+            <node concept="2pJPEk" id="3Du9kbA_ngT" role="33vP2m">
+              <node concept="2pJPED" id="3Du9kbA_uLS" role="2pJPEn">
+                <ref role="2pJxaS" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+                <node concept="2pIpSj" id="3Du9kbA_vqL" role="2pJxcM">
+                  <ref role="2pIpSl" to="tpee:hwllgre" resolve="instanceMethodDeclaration" />
+                  <node concept="36bGnv" id="3Du9kbA_w0r" role="2pJxcZ">
+                    <ref role="36bGnp" to="wyt6:~Object.wait():void" resolve="wait" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3Tqbb2" id="3Du9kbA_wIu" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:hwliAcM" resolve="InstanceMethodCallOperation" />
+            </node>
+          </node>
+        </node>
+        <node concept="JA50E" id="3Du9kbA_nh0" role="3cqZAp">
+          <node concept="37vLTw" id="3Du9kbA_nh1" role="JA92f">
+            <ref role="3cqZAo" node="3Du9kbA_ngH" resolve="b" />
+          </node>
+          <node concept="37vLTw" id="3Du9kbA_nh2" role="JAdkl">
+            <ref role="3cqZAo" node="3Du9kbA_ngS" resolve="l" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2XOHcx" id="2ZO5wSvGHO_">
     <property role="2XOHcw" value="${mps_home}" />
