@@ -4,22 +4,16 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
     <use id="a9a89513-28b7-482e-84f9-3d7ea789417e" name="jetbrains.mps.baseLanguage.deriving" version="0" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="jb9u" ref="r:0ee22b59-97e1-4f2f-9936-2b81081cff25(jetbrains.mps.baseLanguage.deriving.structure)" />
-    <import index="tpeu" ref="r:00000000-0000-4000-0000-011c895902fa(jetbrains.mps.lang.smodel.behavior)" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="w2ip" ref="r:c38e2114-f0e2-47a0-a98d-666b5bd6e01e(jetbrains.mps.baseLanguage.deriving.runtime)" />
     <import index="o16s" ref="r:daceb924-9426-4fd3-830f-71d1803d4222(jetbrains.mps.baseLanguage.deriving.runtime.plugin)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="l3tz" ref="r:e9df4741-8397-47df-9edf-1c815d6136b8(jetbrains.mps.baseLanguage.deriving.deriving)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="y4ob" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.menus(MPS.Editor/)" />
   </imports>
@@ -364,7 +358,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="3Du9kbAoNmV">
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <ref role="13h7C2" to="jb9u:hJB5_oW" resolve="NodeRefExpressionDeriving" />
     <node concept="13i0hz" id="4x3U0fpSqvX" role="13h7CS">
       <property role="TrG5h" value="getPossibleTargetNodes" />
@@ -599,7 +593,7 @@
       <node concept="3clFbS" id="3Du9kbA$LvY" role="3clF47">
         <node concept="3clFbF" id="3Du9kbA$LXm" role="3cqZAp">
           <node concept="2zkf$f" id="3Du9kbA$LXl" role="3clFbG">
-            <ref role="2zkf_b" to="l3tz:6LlIhbf1jtE" />
+            <ref role="2zkf_b" to="jb9u:6LlIhbf1jtE" />
           </node>
         </node>
       </node>
@@ -979,7 +973,7 @@
     <node concept="3Tm1VV" id="3Du9kbAp8XG" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="3Du9kbA$Yp9">
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <ref role="13h7C2" to="jb9u:3F2FyKbNNqb" resolve="WithStatement" />
     <node concept="13hLZK" id="3Du9kbA$Ypa" role="13h7CW">
       <node concept="3clFbS" id="3Du9kbA$Ypb" role="2VODD2" />
@@ -993,7 +987,7 @@
       <node concept="3clFbS" id="3Du9kbA$Ypo" role="3clF47">
         <node concept="3clFbF" id="3Du9kbA$ZZD" role="3cqZAp">
           <node concept="2zkf$f" id="3Du9kbA$ZZC" role="3clFbG">
-            <ref role="2zkf_b" to="l3tz:6LlIhbf1jtR" />
+            <ref role="2zkf_b" to="jb9u:6LlIhbf1jtR" />
           </node>
         </node>
       </node>

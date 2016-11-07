@@ -3,14 +3,30 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
+    <use id="a9a89513-28b7-482e-84f9-3d7ea789417e" name="jetbrains.mps.baseLanguage.deriving" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="a9a89513-28b7-482e-84f9-3d7ea789417e" name="jetbrains.mps.baseLanguage.deriving">
+      <concept id="7806349019546455652" name="jetbrains.mps.baseLanguage.deriving.structure.DerivingList" flags="ng" index="2yBbtQ">
+        <child id="7806349019548031154" name="rule" index="2yHa6w" />
+        <child id="7806349019548031150" name="entity" index="2yHa6W" />
+      </concept>
+      <concept id="7806349019548031152" name="jetbrains.mps.baseLanguage.deriving.structure.SimpleDerivingEntity" flags="ng" index="2yHa6y">
+        <reference id="7806349019548034163" name="classifier" index="2yH9Px" />
+      </concept>
+      <concept id="7806349019548031158" name="jetbrains.mps.baseLanguage.deriving.structure.SimpleDerivingRule" flags="ng" index="2yHa6$">
+        <reference id="7806349019548031159" name="from" index="2yHa6_" />
+        <reference id="7806349019548031165" name="to" index="2yHa6J" />
+        <reference id="7806349019548031168" name="method" index="2yHa7i" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
@@ -147,7 +163,7 @@
     <property role="R4oN_" value="implicit param node reference" />
     <property role="TrG5h" value="NodeRefExpressionDeriving" />
     <property role="2_RsDV" value="none" />
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <property role="34LRSv" value="node/&lt;name&gt;/" />
     <property role="EcuMT" value="1219352745532" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -179,7 +195,7 @@
     <property role="TrG5h" value="ImplicitParameterProvider" />
   </node>
   <node concept="1TIwiD" id="3F2FyKbNNqb">
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <property role="TrG5h" value="WithStatement" />
     <property role="EcuMT" value="4234138103881610891" />
     <property role="34LRSv" value="with" />
@@ -201,6 +217,21 @@
     </node>
     <node concept="PrWs8" id="3Du9kbA$Ymn" role="PzmwI">
       <ref role="PrY4T" node="3Du9kbAp8WM" resolve="ImplicitParameterProvider" />
+    </node>
+  </node>
+  <node concept="2yBbtQ" id="6LlIhbf1jt0">
+    <property role="TrG5h" value="MpsDerivings" />
+    <property role="3GE5qa" value="sample" />
+    <node concept="2yHa6$" id="6LlIhbf1jtX" role="2yHa6w">
+      <ref role="2yHa6_" node="6LlIhbf1jtR" />
+      <ref role="2yHa6J" node="6LlIhbf1jtE" />
+      <ref role="2yHa7i" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+    </node>
+    <node concept="2yHa6y" id="6LlIhbf1jtE" role="2yHa6W">
+      <ref role="2yH9Px" to="lui2:~SRepository" resolve="SRepository" />
+    </node>
+    <node concept="2yHa6y" id="6LlIhbf1jtR" role="2yHa6W">
+      <ref role="2yH9Px" to="z1c3:~Project" resolve="Project" />
     </node>
   </node>
 </model>

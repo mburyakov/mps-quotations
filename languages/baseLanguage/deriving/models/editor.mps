@@ -192,7 +192,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3Du9kbAp0y0">
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <ref role="1XX52x" to="jb9u:hJB5_oW" resolve="NodeRefExpressionDeriving" />
     <node concept="3EZMnI" id="hJB7pa_" role="2wV5jI">
       <node concept="3F0ifn" id="hJB7paA" role="3EZMnx">
@@ -234,7 +234,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3Du9kbA$YmO">
-    <property role="3GE5qa" value="reference" />
+    <property role="3GE5qa" value="sample" />
     <ref role="1XX52x" to="jb9u:3F2FyKbNNqb" resolve="WithStatement" />
     <node concept="3EZMnI" id="3F2FyKbNNqI" role="2wV5jI">
       <node concept="3F0ifn" id="3F2FyKbNNqM" role="3EZMnx">
