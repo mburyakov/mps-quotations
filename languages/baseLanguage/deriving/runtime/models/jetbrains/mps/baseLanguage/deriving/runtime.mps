@@ -11,6 +11,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
+    <import index="jb9u" ref="r:0ee22b59-97e1-4f2f-9936-2b81081cff25(jetbrains.mps.baseLanguage.deriving.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -122,6 +123,9 @@
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
+      <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz">
+        <reference id="6677504323281689839" name="conceptDeclaraton" index="3bZ5Sy" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -134,6 +138,10 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
+      </concept>
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
       </concept>
     </language>
   </registry>
@@ -587,6 +595,21 @@
       <node concept="_YKpA" id="6LlIhbeSx50" role="3clF45">
         <node concept="3uibUv" id="6LlIhbeSx5u" role="_ZDj9">
           <ref role="3uigEE" node="6LlIhbeMh6Y" resolve="DerivationRule" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="81GU9xD32N" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getImplicitEntityConcepts" />
+      <node concept="3clFbS" id="81GU9xD32O" role="3clF47" />
+      <node concept="3Tm1VV" id="81GU9xD32P" role="1B3o_S" />
+      <node concept="3rvAFt" id="81GU9xD3gw" role="3clF45">
+        <node concept="3uibUv" id="81GU9xD3i1" role="3rvSg0">
+          <ref role="3uigEE" node="6LlIhbeMgTZ" resolve="DerivedEntity" />
+        </node>
+        <node concept="3bZ5Sz" id="81GU9xD3a6" role="3rvQeY">
+          <ref role="3bZ5Sy" to="jb9u:81GU9xq4Mv" resolve="ImplicitEntityReference" />
         </node>
       </node>
     </node>

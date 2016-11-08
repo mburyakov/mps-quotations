@@ -11,6 +11,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a9a89513-28b7-482e-84f9-3d7ea789417e" name="jetbrains.mps.baseLanguage.deriving">
@@ -19,6 +20,7 @@
         <child id="7806349019548031150" name="entity" index="2yHa6W" />
       </concept>
       <concept id="7806349019548031152" name="jetbrains.mps.baseLanguage.deriving.structure.SimpleDerivingEntity" flags="ng" index="2yHa6y">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <reference id="7806349019548034163" name="classifier" index="2yH9Px" />
       </concept>
       <concept id="7806349019548031158" name="jetbrains.mps.baseLanguage.deriving.structure.SimpleDerivingRule" flags="ng" index="2yHa6$">
@@ -28,13 +30,21 @@
       </concept>
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
+        <reference id="6054523464627965081" name="concept" index="trN6q" />
+      </concept>
+      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
+        <property id="7588428831955550663" name="role" index="Hh88m" />
+        <child id="7588428831947959310" name="attributed" index="EQaZv" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
-        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="6714410169261853888" name="conceptId" index="EcuMU" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -45,6 +55,10 @@
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -57,6 +71,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -64,7 +79,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="6LlIhbeMgT$">
-    <property role="EcuMT" value="7806349019546455652" />
+    <property role="EcuMU" value="7806349019546455652" />
     <property role="TrG5h" value="DerivingList" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="description" />
@@ -88,10 +103,15 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6LlIhbeShyK">
-    <property role="EcuMT" value="7806349019548031152" />
+    <property role="EcuMU" value="7806349019548031152" />
     <property role="TrG5h" value="SimpleDerivingEntity" />
     <property role="3GE5qa" value="description" />
     <ref role="1TJDcQ" node="6LlIhbeShyL" resolve="DerivingEntity" />
+    <node concept="1TJgyi" id="5OIo7_R7SN0" role="1TKVEl">
+      <property role="TrG5h" value="conceptId" />
+      <property role="IQ2nx" value="6714410169261853888" />
+      <ref role="AX2Wp" to="tpce:3H1xM9LtLda" resolve="IDNumber" />
+    </node>
     <node concept="1TJgyj" id="6LlIhbeSihN" role="1TKVEi">
       <property role="IQ2ns" value="7806349019548034163" />
       <property role="20lmBu" value="reference" />
@@ -101,7 +121,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6LlIhbeShyL">
-    <property role="EcuMT" value="7806349019548031153" />
+    <property role="EcuMU" value="7806349019548031153" />
     <property role="TrG5h" value="DerivingEntity" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -109,7 +129,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6LlIhbeShyP">
-    <property role="EcuMT" value="7806349019548031157" />
+    <property role="EcuMU" value="7806349019548031157" />
     <property role="TrG5h" value="DerivingRule" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -117,7 +137,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6LlIhbeShyQ">
-    <property role="EcuMT" value="7806349019548031158" />
+    <property role="EcuMU" value="7806349019548031158" />
     <property role="TrG5h" value="SimpleDerivingRule" />
     <property role="3GE5qa" value="description" />
     <ref role="1TJDcQ" node="6LlIhbeShyP" resolve="DerivingRule" />
@@ -144,7 +164,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6LlIhbf1k0t">
-    <property role="EcuMT" value="7806349019550400541" />
+    <property role="EcuMU" value="7806349019550400541" />
     <property role="TrG5h" value="DerivingEntityReference" />
     <property role="34LRSv" value="deriving" />
     <property role="3GE5qa" value="description" />
@@ -165,7 +185,7 @@
     <property role="2_RsDV" value="none" />
     <property role="3GE5qa" value="sample" />
     <property role="34LRSv" value="node/&lt;name&gt;/" />
-    <property role="EcuMT" value="1219352745532" />
+    <property role="EcuMU" value="1219352745532" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="hJB5MUc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -179,7 +199,7 @@
     </node>
   </node>
   <node concept="PlHQZ" id="3Du9kbAp0x5">
-    <property role="EcuMT" value="4205840071274006597" />
+    <property role="EcuMU" value="4205840071274006597" />
     <property role="3GE5qa" value="reference" />
     <property role="TrG5h" value="ImplicitParameterExpression" />
     <node concept="1TJgyj" id="3Du9kbAp0Ef" role="1TKVEi">
@@ -190,14 +210,14 @@
     </node>
   </node>
   <node concept="PlHQZ" id="3Du9kbAp8WM">
-    <property role="EcuMT" value="4205840071274041138" />
+    <property role="EcuMU" value="4205840071274041138" />
     <property role="3GE5qa" value="reference" />
     <property role="TrG5h" value="ImplicitParameterProvider" />
   </node>
   <node concept="1TIwiD" id="3F2FyKbNNqb">
     <property role="3GE5qa" value="sample" />
     <property role="TrG5h" value="WithStatement" />
-    <property role="EcuMT" value="4234138103881610891" />
+    <property role="EcuMU" value="4234138103881610891" />
     <property role="34LRSv" value="with" />
     <property role="R4oN_" value="implicit parameter provider" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
@@ -228,11 +248,45 @@
       <ref role="2yHa7i" to="z1c3:~Project.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
     </node>
     <node concept="2yHa6y" id="6LlIhbf1jtE" role="2yHa6W">
+      <property role="EcuMT" value="12313412341234" />
       <ref role="2yH9Px" to="lui2:~SRepository" resolve="SRepository" />
     </node>
     <node concept="2yHa6y" id="6LlIhbf1jtR" role="2yHa6W">
+      <property role="EcuMT" value="456637567567" />
       <ref role="2yH9Px" to="z1c3:~Project" resolve="Project" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3Du9kbAC32s">
+    <property role="EcuMU" value="4205840071277949084" />
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="ImplicitVariableAnnotation" />
+    <property role="R5$K7" value="false" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="81GU9xq4Mw" role="1TKVEi">
+      <property role="IQ2ns" value="144594173052865696" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="81GU9xq4Mv" resolve="ImplicitEntityReference" />
+    </node>
+    <node concept="M6xJ_" id="3Du9kbAC32t" role="lGtFl">
+      <property role="Hh88m" value="implicit" />
+      <node concept="trNpa" id="3Du9kbAC32x" role="EQaZv">
+        <ref role="trN6q" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="81GU9xm7nL" role="PzmwI">
+      <ref role="PrY4T" node="3Du9kbAp8WM" resolve="ImplicitParameterProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="81GU9xq4Mv">
+    <property role="EcuMU" value="144594173052865695" />
+    <property role="3GE5qa" value="reference" />
+    <property role="TrG5h" value="ImplicitEntityReference" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
