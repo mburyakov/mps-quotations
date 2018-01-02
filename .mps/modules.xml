@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/devkit/jetbrains.mps.baseLanguage.deriving.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/jetbrains.mps.baseLanguage.deriving.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/runtime/jetbrains.mps.baseLanguage.deriving.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/sandbox/jetbrains.mps.baseLanguage.deriving.sandbox.mpl" folder="" />

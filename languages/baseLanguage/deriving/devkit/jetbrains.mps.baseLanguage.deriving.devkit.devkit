@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="jetbrains.mps.baseLanguage.deriving.devkit" uuid="d65ff6bc-f8e1-46b2-9c85-4db3d53d6a65">
+  <exported-language name="a9a89513-28b7-482e-84f9-3d7ea789417e(jetbrains.mps.baseLanguage.deriving)" />
+  <extendedDevKits>
+    <extendedDevKit>78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)</extendedDevKit>
+  </extendedDevKits>
+  <generation-plan model="r:a6a899b8-69a6-4638-9060-a50a2f65e588(jetbrains.mps.baseLanguage.deriving.genplan@genplan)" />
+</dev-kit>
+

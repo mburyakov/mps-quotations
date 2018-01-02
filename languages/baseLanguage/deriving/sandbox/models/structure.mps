@@ -2,9 +2,7 @@
 <model ref="r:e7f1c30d-1a8f-4866-87bf-c85068be1f03(jetbrains.mps.baseLanguage.deriving.sandbox.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
-    <use id="a9a89513-28b7-482e-84f9-3d7ea789417e" name="jetbrains.mps.baseLanguage.deriving" version="0" />
-    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
+    <devkit ref="d65ff6bc-f8e1-46b2-9c85-4db3d53d6a65(jetbrains.mps.baseLanguage.deriving.devkit)" />
   </languages>
   <imports>
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
