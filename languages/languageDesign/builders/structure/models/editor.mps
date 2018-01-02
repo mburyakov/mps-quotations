@@ -2,9 +2,9 @@
 <model ref="r:b803d73a-19c9-47ff-ab65-6fe6237fce25(jetbrains.mps.lang.builders.structure.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -225,8 +225,8 @@
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
@@ -471,8 +471,10 @@
                       <node concept="2qgKlT" id="1nkqjyGjV_4" role="2OqNvi">
                         <ref role="37wK5l" to="b5d4:47AvMSwcZG7" resolve="getScope" />
                         <node concept="1PxgMI" id="1nkqjyGjV_5" role="37wK5m">
-                          <ref role="1m5ApE" to="mw1z:2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
                           <node concept="3bvxqY" id="1nkqjyGjV_6" role="1m5AlR" />
+                          <node concept="chp4Y" id="4LlsFjVuSQM" role="3oSUPX">
+                            <ref role="cht4Q" to="mw1z:2ZO5wSvvU2Z" resolve="IExpressionBuilderContainer" />
+                          </node>
                         </node>
                       </node>
                     </node>

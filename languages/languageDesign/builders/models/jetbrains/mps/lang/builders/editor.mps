@@ -2,9 +2,9 @@
 <model ref="r:1200b5ae-0e93-48fc-9726-cca15a770d55(jetbrains.mps.lang.builders.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -237,10 +237,13 @@
       <concept id="5979988948250981289" name="jetbrains.mps.lang.actions.structure.SNodeCreatorAndInitializer" flags="nn" index="2fJWfE" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
@@ -716,8 +719,10 @@
               <node concept="2qgKlT" id="1nkqjyG3sjs" role="2OqNvi">
                 <ref role="37wK5l" to="b5d4:1nkqjyG0Atd" resolve="getScope" />
                 <node concept="1PxgMI" id="1nkqjyG3qbB" role="37wK5m">
-                  <ref role="1m5ApE" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
                   <node concept="3bvxqY" id="1nkqjyG3pS5" role="1m5AlR" />
+                  <node concept="chp4Y" id="4LlsFjVuSPN" role="3oSUPX">
+                    <ref role="cht4Q" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -892,8 +897,10 @@
               <node concept="2qgKlT" id="1nkqjyG6GmW" role="2OqNvi">
                 <ref role="37wK5l" to="b5d4:1nkqjyG5DpG" resolve="getScope" />
                 <node concept="1PxgMI" id="1nkqjyG6GmX" role="37wK5m">
-                  <ref role="1m5ApE" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
                   <node concept="3bvxqY" id="1nkqjyG6GmY" role="1m5AlR" />
+                  <node concept="chp4Y" id="4LlsFjVuSPQ" role="3oSUPX">
+                    <ref role="cht4Q" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1038,8 +1045,10 @@
               <node concept="2qgKlT" id="1nkqjyGbNsg" role="2OqNvi">
                 <ref role="37wK5l" to="b5d4:1nkqjyG9KwT" resolve="getScope" />
                 <node concept="1PxgMI" id="1nkqjyGbNsh" role="37wK5m">
-                  <ref role="1m5ApE" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
                   <node concept="3bvxqY" id="1nkqjyGbNsi" role="1m5AlR" />
+                  <node concept="chp4Y" id="4LlsFjVuSQ4" role="3oSUPX">
+                    <ref role="cht4Q" to="mw1z:38NtPr_GPbG" resolve="NodeBuilderAB" />
+                  </node>
                 </node>
               </node>
             </node>

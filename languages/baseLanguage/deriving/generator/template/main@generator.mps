@@ -249,10 +249,13 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
@@ -1202,7 +1205,6 @@
                     <node concept="3clFbF" id="6LlIhbf2k7B" role="3cqZAp">
                       <node concept="2OqwBi" id="6LlIhbf2nlp" role="3clFbG">
                         <node concept="1PxgMI" id="6LlIhbf2mN_" role="2Oq$k0">
-                          <ref role="1m5ApE" to="tpck:h0TrEE$" resolve="INamedConcept" />
                           <node concept="2OqwBi" id="6LlIhbf2kYp" role="1m5AlR">
                             <node concept="2OqwBi" id="6LlIhbf2kk8" role="2Oq$k0">
                               <node concept="30H73N" id="6LlIhbf2k7A" role="2Oq$k0" />
@@ -1211,6 +1213,9 @@
                               </node>
                             </node>
                             <node concept="2Rxl7S" id="6LlIhbf2lh1" role="2OqNvi" />
+                          </node>
+                          <node concept="chp4Y" id="4LlsFjVuSPL" role="3oSUPX">
+                            <ref role="cht4Q" to="tpck:h0TrEE$" resolve="INamedConcept" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="6LlIhbf2Gd0" role="2OqNvi">
