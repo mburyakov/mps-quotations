@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/jetbrains.mps.baseLanguage.deriving.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/baseLanguage/deriving/runtime/jetbrains.mps.baseLanguage.deriving.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/languageDesign/builders/jetbrains.mps.lang.builders.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/languageDesign/builders/structure/jetbrains.mps.lang.builders.structure.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/testbench/testsolutions/bl.implicit.test/jetbrains.mps.baseLanguage.implicit.test.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/testbench/testsolutions/quotation.test/jetbrains.mps.lang.builders.test/jetbrains.mps.lang.builders.test.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
