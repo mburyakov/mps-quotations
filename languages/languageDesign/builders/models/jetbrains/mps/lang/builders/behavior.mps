@@ -25,8 +25,8 @@
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="6bz1" ref="r:d3905048-7598-4a84-931a-cbbcbcda146d(jetbrains.mps.lang.intentions.methods)" implicit="true" />
-    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="d1921f4d-8292-4a95-9565-bfaac6ee3745" name="jetbrains.mps.lang.builders.structure">
@@ -205,6 +205,7 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -250,6 +251,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="13h7C7" id="38NtPr_KyOn">
@@ -988,16 +990,31 @@
       <node concept="3Tm1VV" id="GPqVzQSgnJ" role="1B3o_S" />
       <node concept="10P_77" id="GPqVzQSgoi" role="3clF45" />
       <node concept="3clFbS" id="GPqVzQSgnL" role="3clF47">
-        <node concept="3clFbF" id="GPqVzQSlzY" role="3cqZAp">
-          <node concept="3fqX7Q" id="GPqVzQSlSK" role="3clFbG">
-            <node concept="2OqwBi" id="GPqVzQSlSM" role="3fr31v">
-              <node concept="BsUDl" id="GPqVzQSlSN" role="2Oq$k0">
-                <ref role="37wK5l" node="GPqVzQR1wS" resolve="getExpression" />
+        <node concept="3cpWs8" id="36WbkpIZdvB" role="3cqZAp">
+          <node concept="3cpWsn" id="36WbkpIZdvC" role="3cpWs9">
+            <property role="TrG5h" value="hasVariables" />
+            <node concept="10P_77" id="36WbkpIZdvx" role="1tU5fm" />
+            <node concept="2OqwBi" id="36WbkpIZdvD" role="33vP2m">
+              <node concept="2OqwBi" id="36WbkpIZdvE" role="2Oq$k0">
+                <node concept="BsUDl" id="36WbkpIZdvF" role="2Oq$k0">
+                  <ref role="37wK5l" node="GPqVzQR1wS" resolve="getExpression" />
+                </node>
+                <node concept="2Rf3mk" id="36WbkpIZdvG" role="2OqNvi">
+                  <node concept="1xIGOp" id="36WbkpJ0A$A" role="1xVPHs" />
+                  <node concept="1xMEDy" id="36WbkpIZdvH" role="1xVPHs">
+                    <node concept="chp4Y" id="36WbkpIZdvI" role="ri$Ld">
+                      <ref role="cht4Q" to="tpee:fz7vLUo" resolve="VariableReference" />
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="2qgKlT" id="GPqVzQSlSO" role="2OqNvi">
-                <ref role="37wK5l" to="tpek:i1LOPRp" resolve="isCompileTimeConstant" />
-              </node>
+              <node concept="3GX2aA" id="36WbkpIZgoi" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="36WbkpIZg$C" role="3cqZAp">
+          <node concept="37vLTw" id="36WbkpIZgJl" role="3cqZAk">
+            <ref role="3cqZAo" node="36WbkpIZdvC" resolve="hasVariables" />
           </node>
         </node>
       </node>
