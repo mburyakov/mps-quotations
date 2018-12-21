@@ -1197,7 +1197,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="2ZO5wSvGHO_">
-    <property role="2XOHcw" value="${mps_home}" />
+    <property role="2XOHcw" value="${quotations_home}" />
   </node>
   <node concept="1lH9Xt" id="2ZO5wSvHvlO">
     <property role="TrG5h" value="NewBuildersAdditional" />
