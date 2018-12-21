@@ -280,6 +280,11 @@
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
+        <reference id="7256306938026143658" name="target" index="2aWVGs" />
+      </concept>
+    </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1176543928247" name="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" flags="nn" index="3JuTUA">
         <child id="1176543945045" name="subtypeExpression" index="3JuY14" />
@@ -320,6 +325,9 @@
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
+        <child id="7400021826774799510" name="ref" index="2tJFKM" />
+      </concept>
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
@@ -342,9 +350,6 @@
       </concept>
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
-      </concept>
-      <concept id="1828409047608048457" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression_Old" flags="nn" index="1N_AGu">
-        <reference id="1828409047608048458" name="referentNode" index="1N_AGt" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -375,10 +380,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="2482611074346661065" name="jetbrains.mps.lang.core.structure.ReviewMigration_old" flags="ng" index="13_zln">
-        <property id="2482611074346661078" name="reasonShort" index="13_zl8" />
-        <property id="2482611074347169514" name="readableId" index="13BvtO" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -1208,27 +1209,25 @@
                 <node concept="2ZBi8u" id="1WuaKdvPbpx" role="lGtFl">
                   <ref role="2rW$FS" node="5hiYQ34Q8AS" resolve="builderVariable" />
                 </node>
-                <node concept="1N_AGu" id="1WuaKdvPibe" role="33vP2m">
-                  <ref role="1N_AGt" to="tpck:gw2VY9q" resolve="BaseConcept" />
-                  <node concept="1ZhdrF" id="1WuaKdvPiv3" role="lGtFl">
-                    <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1828409047608048457/1828409047608048458" />
-                    <property role="2qtEX8" value="referentNode" />
-                    <node concept="3$xsQk" id="1WuaKdvPiv4" role="3$ytzL">
-                      <node concept="3clFbS" id="1WuaKdvPiv5" role="2VODD2">
-                        <node concept="3clFbF" id="1WuaKdvPiJ3" role="3cqZAp">
-                          <node concept="2OqwBi" id="1WuaKdvPiUz" role="3clFbG">
-                            <node concept="30H73N" id="1WuaKdvPiJ2" role="2Oq$k0" />
-                            <node concept="3TrEf2" id="1WuaKdvPj9p" role="2OqNvi">
-                              <ref role="3Tt5mk" to="mw1z:1WuaKdvONC$" resolve="target" />
+                <node concept="2tJFMh" id="7NUT5FmqRW9" role="33vP2m">
+                  <node concept="ZC_QK" id="7NUT5FmqS7C" role="2tJFKM">
+                    <ref role="2aWVGs" to="tpck:gw2VY9q" resolve="BaseConcept" />
+                    <node concept="1ZhdrF" id="7NUT5FmqSj0" role="lGtFl">
+                      <property role="2qtEX8" value="target" />
+                      <property role="P3scX" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e/4733039728785194814/7256306938026143658" />
+                      <node concept="3$xsQk" id="7NUT5FmqSj1" role="3$ytzL">
+                        <node concept="3clFbS" id="7NUT5FmqSj2" role="2VODD2">
+                          <node concept="3clFbF" id="7NUT5FmqSsT" role="3cqZAp">
+                            <node concept="2OqwBi" id="7NUT5FmqSEK" role="3clFbG">
+                              <node concept="30H73N" id="7NUT5FmqSsS" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="7NUT5FmqTQ$" role="2OqNvi">
+                                <ref role="3Tt5mk" to="mw1z:1WuaKdvONC$" resolve="target" />
+                              </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="13_zln" id="7NUT5FmqKbh" role="lGtFl">
-                    <property role="13BvtO" value="MigrateOldNodePointerExpressions" />
-                    <property role="13_zl8" value="Couldn't migrate node with attributes" />
                   </node>
                 </node>
               </node>

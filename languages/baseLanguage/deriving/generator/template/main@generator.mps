@@ -259,6 +259,11 @@
       <concept id="1217004708011" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetInputModel" flags="nn" index="1r8y6K" />
       <concept id="1217026863835" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOriginalInputModel" flags="nn" index="1st3f0" />
     </language>
+    <language id="446c26eb-2b7b-4bf0-9b35-f83fa582753e" name="jetbrains.mps.lang.modelapi">
+      <concept id="4733039728785194814" name="jetbrains.mps.lang.modelapi.structure.NamedNodeReference" flags="ng" index="ZC_QK">
+        <reference id="7256306938026143658" name="target" index="2aWVGs" />
+      </concept>
+    </language>
     <language id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal">
       <concept id="1173995204289" name="jetbrains.mps.baseLanguageInternal.structure.InternalStaticFieldReference" flags="nn" index="1n$iZg">
         <property id="1173995448817" name="fqClassName" index="1n_ezw" />
@@ -279,6 +284,9 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="7400021826774799413" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression" flags="ng" index="2tJFMh">
+        <child id="7400021826774799510" name="ref" index="2tJFKM" />
+      </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -298,9 +306,6 @@
       </concept>
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz">
         <reference id="6677504323281689839" name="conceptDeclaraton" index="3bZ5Sy" />
-      </concept>
-      <concept id="1828409047608048457" name="jetbrains.mps.lang.smodel.structure.NodePointerExpression_Old" flags="nn" index="1N_AGu">
-        <reference id="1828409047608048458" name="referentNode" index="1N_AGt" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -331,10 +336,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="2482611074346661065" name="jetbrains.mps.lang.core.structure.ReviewMigration_old" flags="ng" index="13_zln">
-        <property id="2482611074346661078" name="reasonShort" index="13_zl8" />
-        <property id="2482611074347169514" name="readableId" index="13BvtO" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -757,27 +758,25 @@
                 </node>
               </node>
             </node>
-            <node concept="1N_AGu" id="6LlIhbeTqhn" role="37wK5m">
-              <ref role="1N_AGt" node="6LlIhbeSLHB" resolve="reduce_SimpleDerivingRule" />
-              <node concept="1ZhdrF" id="6LlIhbeTrkf" role="lGtFl">
-                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1828409047608048457/1828409047608048458" />
-                <property role="2qtEX8" value="referentNode" />
-                <node concept="3$xsQk" id="6LlIhbeTrkg" role="3$ytzL">
-                  <node concept="3clFbS" id="6LlIhbeTrkh" role="2VODD2">
-                    <node concept="3clFbF" id="6LlIhbeTr$R" role="3cqZAp">
-                      <node concept="2OqwBi" id="6LlIhbeTrIj" role="3clFbG">
-                        <node concept="30H73N" id="6LlIhbeTr$Q" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="6LlIhbeTrT7" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jb9u:6LlIhbeShz0" resolve="method" />
+            <node concept="2tJFMh" id="7NUT5FmqP5l" role="37wK5m">
+              <node concept="ZC_QK" id="7NUT5FmqPtf" role="2tJFKM">
+                <ref role="2aWVGs" node="6LlIhbeSLHB" resolve="reduce_SimpleDerivingRule" />
+                <node concept="1ZhdrF" id="7NUT5FmqPO_" role="lGtFl">
+                  <property role="2qtEX8" value="target" />
+                  <property role="P3scX" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e/4733039728785194814/7256306938026143658" />
+                  <node concept="3$xsQk" id="7NUT5FmqPOA" role="3$ytzL">
+                    <node concept="3clFbS" id="7NUT5FmqPOB" role="2VODD2">
+                      <node concept="3clFbF" id="7NUT5FmqQcI" role="3cqZAp">
+                        <node concept="2OqwBi" id="7NUT5FmqQoW" role="3clFbG">
+                          <node concept="30H73N" id="7NUT5FmqQcH" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="7NUT5FmqQKx" role="2OqNvi">
+                            <ref role="3Tt5mk" to="jb9u:6LlIhbeShz0" resolve="method" />
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="13_zln" id="7NUT5FmqKaZ" role="lGtFl">
-                <property role="13BvtO" value="MigrateOldNodePointerExpressions" />
-                <property role="13_zl8" value="Couldn't migrate node with attributes" />
               </node>
             </node>
           </node>
@@ -1069,27 +1068,25 @@
         <node concept="2ShNRf" id="6LlIhbeT_qd" role="33vP2m">
           <node concept="1pGfFk" id="6LlIhbeT_pY" role="2ShVmc">
             <ref role="37wK5l" to="w2ip:6LlIhbeSkCP" resolve="SimpleClassDerivedEntity" />
-            <node concept="1N_AGu" id="6LlIhbeTxtL" role="37wK5m">
-              <ref role="1N_AGt" node="6LlIhbeTxt3" resolve="reduce_SimpleDerivingEntity" />
-              <node concept="1ZhdrF" id="6LlIhbeTxtM" role="lGtFl">
-                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1828409047608048457/1828409047608048458" />
-                <property role="2qtEX8" value="referentNode" />
-                <node concept="3$xsQk" id="6LlIhbeTxtN" role="3$ytzL">
-                  <node concept="3clFbS" id="6LlIhbeTxtO" role="2VODD2">
-                    <node concept="3clFbF" id="6LlIhbeTxtP" role="3cqZAp">
-                      <node concept="2OqwBi" id="6LlIhbeTxtQ" role="3clFbG">
-                        <node concept="30H73N" id="6LlIhbeTxtR" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="6LlIhbeTCBR" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jb9u:6LlIhbeSihN" resolve="classifier" />
+            <node concept="2tJFMh" id="7NUT5FmqLQX" role="37wK5m">
+              <node concept="ZC_QK" id="7NUT5FmqMib" role="2tJFKM">
+                <ref role="2aWVGs" node="6LlIhbeTxt3" resolve="reduce_SimpleDerivingEntity" />
+                <node concept="1ZhdrF" id="7NUT5FmqMHv" role="lGtFl">
+                  <property role="2qtEX8" value="target" />
+                  <property role="P3scX" value="446c26eb-2b7b-4bf0-9b35-f83fa582753e/4733039728785194814/7256306938026143658" />
+                  <node concept="3$xsQk" id="7NUT5FmqMHw" role="3$ytzL">
+                    <node concept="3clFbS" id="7NUT5FmqMHx" role="2VODD2">
+                      <node concept="3clFbF" id="7NUT5FmqN9S" role="3cqZAp">
+                        <node concept="2OqwBi" id="7NUT5FmqNm6" role="3clFbG">
+                          <node concept="30H73N" id="7NUT5FmqN9R" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="7NUT5FmqNEr" role="2OqNvi">
+                            <ref role="3Tt5mk" to="jb9u:6LlIhbeSihN" resolve="classifier" />
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
                 </node>
-              </node>
-              <node concept="13_zln" id="7NUT5FmqKb0" role="lGtFl">
-                <property role="13BvtO" value="MigrateOldNodePointerExpressions" />
-                <property role="13_zl8" value="Couldn't migrate node with attributes" />
               </node>
             </node>
             <node concept="Xl_RD" id="6LlIhbeTCXm" role="37wK5m">
