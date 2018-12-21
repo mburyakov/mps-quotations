@@ -4,7 +4,7 @@
   <languages>
     <use id="69b8a993-9b87-4d96-bf0c-3559f4bb0c63" name="jetbrains.mps.lang.slanguage" version="0" />
     <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -331,6 +331,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="2482611074346661065" name="jetbrains.mps.lang.core.structure.ReviewMigration_old" flags="ng" index="13_zln">
+        <property id="2482611074346661078" name="reasonShort" index="13_zl8" />
+        <property id="2482611074347169514" name="readableId" index="13BvtO" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -771,6 +775,10 @@
                   </node>
                 </node>
               </node>
+              <node concept="13_zln" id="7NUT5FmqKaZ" role="lGtFl">
+                <property role="13BvtO" value="MigrateOldNodePointerExpressions" />
+                <property role="13_zl8" value="Couldn't migrate node with attributes" />
+              </node>
             </node>
           </node>
         </node>
@@ -1078,6 +1086,10 @@
                     </node>
                   </node>
                 </node>
+              </node>
+              <node concept="13_zln" id="7NUT5FmqKb0" role="lGtFl">
+                <property role="13BvtO" value="MigrateOldNodePointerExpressions" />
+                <property role="13_zl8" value="Couldn't migrate node with attributes" />
               </node>
             </node>
             <node concept="Xl_RD" id="6LlIhbeTCXm" role="37wK5m">

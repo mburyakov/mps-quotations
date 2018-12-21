@@ -148,21 +148,18 @@
   <node concept="3HP615" id="6LlIhbeMgTZ">
     <property role="TrG5h" value="DerivedEntity" />
     <node concept="3clFb_" id="6LlIhbeN3Ya" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getName" />
       <node concept="17QB3L" id="6LlIhbeN3Yb" role="3clF45" />
       <node concept="3Tm1VV" id="6LlIhbeN3Yc" role="1B3o_S" />
       <node concept="3clFbS" id="6LlIhbeN3Yd" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6LlIhbeMgUN" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getId" />
       <node concept="17QB3L" id="6LlIhbeMgVd" role="3clF45" />
       <node concept="3Tm1VV" id="6LlIhbeMgUQ" role="1B3o_S" />
       <node concept="3clFbS" id="6LlIhbeMgUR" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6LlIhbeMgWb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getType" />
       <node concept="3Tqbb2" id="6LlIhbeMgWH" role="3clF45">
         <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
@@ -175,7 +172,6 @@
   <node concept="3HP615" id="6LlIhbeMh6Y">
     <property role="TrG5h" value="DerivationRule" />
     <node concept="3clFb_" id="6LlIhbeMh9_" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getFrom" />
       <node concept="3clFbS" id="6LlIhbeMh9C" role="3clF47" />
@@ -185,7 +181,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="6LlIhbeMha6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getTo" />
       <node concept="3clFbS" id="6LlIhbeMha7" role="3clF47" />
@@ -195,7 +190,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="6LlIhbeMkwD" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="wrapExpression" />
       <node concept="37vLTG" id="6LlIhbeMkA4" role="3clF46">
         <property role="TrG5h" value="fromExpression" />
@@ -587,7 +581,6 @@
   <node concept="3HP615" id="2wQ3F8GeTEG">
     <property role="TrG5h" value="DerivingAspectDescriptor" />
     <node concept="3clFb_" id="2wQ3F8GeTFj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getDerivationRules" />
       <node concept="3clFbS" id="2wQ3F8GeTFm" role="3clF47" />
@@ -599,7 +592,6 @@
       </node>
     </node>
     <node concept="3clFb_" id="81GU9xD32N" role="jymVt">
-      <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="getImplicitEntityConcepts" />
       <node concept="3clFbS" id="81GU9xD32O" role="3clF47" />
